@@ -7,7 +7,7 @@ Muhammad Amjad (MA)
 Sam Stafford (SS)
 
 ## PROJECT OUTLINE
-
+The aim is 
 
 ##DATA SOURCES
 Kaggle
@@ -16,7 +16,7 @@ Kaggle
 
 
 ## ROUGH BREAKDOWN OF TASKS
-AS -
+AS - 
 BA -
 MA -
 SS -
