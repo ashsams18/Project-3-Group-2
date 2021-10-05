@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)https://www.kaggle.com/sansuthi/world-population-by-year -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>World Population by Year | Kaggle</title>
+  
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="Population 1951 - 2020">
+  <meta name="turbolinks-cache-control" content="no-cache">
+    <meta name="keywords" content="social science,text data,data visualization,exploratory data analysis,people">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+  <meta name="theme-color" content="#008ABC">
+  <script type="text/javascript" async="" src="./World Population by Year _ Kaggle_files/js" nonce=""></script><script type="text/javascript" async="" src="./World Population by Year _ Kaggle_files/analytics.js.download" nonce=""></script><script src="./World Population by Year _ Kaggle_files/cb=gapi.loaded_0" nonce="" async=""></script><script nonce="" type="text/javascript">
+    window["pageRequestStartTime"] = 1633457568032;
+    window["pageRequestEndTime"] = 1633457568154;
+    window["initialPageLoadStartTime"] = new Date().getTime();
+  </script>
+  <link rel="preconnect" href="https://www.google-analytics.com/" crossorigin="anonymous"><link rel="preconnect" href="https://stats.g.doubleclick.net/"><link rel="preconnect" href="https://storage.googleapis.com/"><link rel="preconnect" href="https://apis.google.com/">
+  <link href="https://www.kaggle.com/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link rel="manifest" href="https://www.kaggle.com/static/json/manifest.json" crossorigin="use-credentials">
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link href="./World Population by Year _ Kaggle_files/icon" rel="preload" as="style">
+  <link href="./World Population by Year _ Kaggle_files/css" rel="preload" as="style">
+  <link href="./World Population by Year _ Kaggle_files/icon" rel="stylesheet" media="all" id="async-google-font-1">
+  <link href="./World Population by Year _ Kaggle_files/css" rel="stylesheet" media="all" id="async-google-font-2">
+  <script nonce="" type="text/javascript">
+    const styleSheetIds = ["async-google-font-1", "async-google-font-2"];
+    styleSheetIds.forEach(function (id) {
+      document.getElementById(id).addEventListener("load", function() {
+        this.media = "all";
+      });
+    });
+  </script>
+
+    <link rel="stylesheet" type="text/css" href="./World Population by Year _ Kaggle_files/vendor.css">
+    <link rel="stylesheet" type="text/css" href="./World Population by Year _ Kaggle_files/app.css">
+  
+    
+ 
+  
+    <script nonce="">
+        try{(function(a,s,y,n,c,h,i,d,e){d=s.createElement("style");
+        d.appendChild(s.createTextNode(""));s.head.appendChild(d);d=d.sheet;
+        y=y.map(x => d.insertRule(x + "{ opacity: 0 !important }"));
+        h.start=1*new Date;h.end=i=function(){y.forEach(x => x<d.cssRules.length ? d.deleteRule(x) : {})};
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+        })(window,document,['.site-header-react__nav'],'dataLayer',2000,{'GTM-52LNT9S':true});}catch(ex){}
+    </script><style></style>
+    <script nonce="">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-12629138-1', {
+            'optimize_id': 'GTM-52LNT9S',
+            'displayFeaturesTask': null,
+            'send_page_view': false,
+            'content_group1': 'Datasets'
+        });
+    </script>
+    <script nonce="" async="" src="./World Population by Year _ Kaggle_files/js(1)"></script>
+
+  
+    
+        <meta property="og:url" content="https://kaggle.com/sansuthi/world-population-by-year">
+        <meta property="og:title" content="World Population by Year">
+        <meta property="og:description" content="Population 1951 - 2020">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://storage.googleapis.com/kaggle-datasets-images/1372719/2279067/bec4e0bf13ebd079f53af54c6eeba2e7/dataset-card.jpg?t=2021-06-15-13-41-44">
+        <meta property="fb:app_id" content="2665027677054710">
+
+
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@kaggledatasets">
+    
+
+  <meta name="twitter:site" content="@Kaggle"> 
+  
+    
+        <script nonce="" type="application/ld+json">{"@context":"http://schema.org/","@type":"Dataset","name":"World Population by Year","description":"### Variables:\n* **Year:** 1951 to 2020\n* **Population:** World Population\n* **ChangePerc:** Yearly Change in Percentage\n* **NetChange**: Total Yearly Change\n* **Density:** Density in P/Km²\t\n* **Urban:** Urban Population \n* **UrbanPerc:** Urban Population Percentage\n\nSource of content: www.worldometers.info","url":"https://www.kaggle.com/sansuthi/world-population-by-year","version":1,"keywords":["subject, people and society, social science","data type, text data","technique, data visualization","technique, exploratory data analysis","subject, people and society, people"],"license":{"@type":"CreativeWork","name":"CC0: Public Domain","url":"https://creativecommons.org/publicdomain/zero/1.0/"},"identifier":["1372719"],"includedInDataCatalog":{"@type":"DataCatalog","name":"Kaggle","url":"https://www.kaggle.com"},"creator":{"@type":"Person","name":"SANDHYA S","url":"https://www.kaggle.com/sansuthi","image":"https://storage.googleapis.com/kaggle-avatars/thumbnails/7044332-kg.png"},"distribution":[{"@type":"DataDownload","requiresSubscription":true,"encodingFormat":"zip","fileFormat":"zip","contentUrl":"https://www.kaggle.com/sansuthi/world-population-by-year/download","contentSize":"1831 bytes"}],"commentCount":0,"dateModified":"2021-05-28T08:21:49.777","discussionUrl":"https://www.kaggle.com/sansuthi/world-population-by-year/discussion","alternateName":"Population 1951 - 2020","isAccessibleForFree":true,"thumbnailUrl":"https://storage.googleapis.com/kaggle-datasets-images/1372719/2279067/bec4e0bf13ebd079f53af54c6eeba2e7/dataset-card.jpg?t=2021-06-15-13-41-44","interactionStatistic":[{"@type":"InteractionCounter","interactionType":"http://schema.org/CommentAction","userInteractionCount":0},{"@type":"InteractionCounter","interactionType":"http://schema.org/DownloadAction","userInteractionCount":2323},{"@type":"InteractionCounter","interactionType":"http://schema.org/ViewAction","userInteractionCount":7422},{"@type":"InteractionCounter","interactionType":"http://schema.org/LikeAction","userInteractionCount":51}]}</script>
+    
+
+  
+    
+        <link rel="alternate" type="application/json+oembed" href="https://www.kaggle.com/oembed/dataset?url=https%3A%2F%2Fwww.kaggle.com%2Fsansuthi%2Fworld-population-by-year" title="World Population by Year">
+    
+
+  
+    
+    
+<script nonce="" type="text/javascript">
+    var Kaggle = window.Kaggle || {};
+
+    Kaggle.Current = {
+        antiForgeryToken: 'CfDJ8LdUzqlsSWBPr4Ce3rb9VL8FwbE941t3dA7Y40pYMizG3bIA8ivw-wCAgYlMN7l6FiMidUzOVhxYsJRv-ad1w0CaqQTnK2ScANHIfPjfOa3ii7gVaoXSNqQxVafRlEISjww7XJSBZvbLmeRtg0TdOEM',
+        isAnonymous: true,
+        analyticsToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MzM0NTg0NjgsIlVzZXJJZCI6MH0.HdopOJT8Jvnp-CWc1ATUsJieelZdHYcjOwN9zDKkKuo',
+        analyticsTokenExpiry: 15,
+        
+        
+        
+        
+        
+        
+        
+        enableRapidash: true, 
+    }
+        Kaggle.Current.log = function(){};
+        Kaggle.Current.warn = function(){};
+
+    var decodeUserDisplayName = function () {
+        var escapedUserDisplayName = Kaggle.Current.userDisplayNameEscaped || "";
+        try {
+            var textVersion = new DOMParser().parseFromString(escapedUserDisplayName, "text/html").documentElement.textContent;
+            if (textVersion) {
+                return textVersion;
+            }
+        } catch(ex) {}
+        return escapedUserDisplayName;
+    }
+    Kaggle.Current.userDisplayName = decodeUserDisplayName();
+</script>
+
+    
+
+<script nonce="" type="text/javascript">
+    var Kaggle = window.Kaggle || {};
+    Kaggle.PageMessages = [];
+</script>
+
+
+
+    <script nonce="">window['useKaggleAnalytics'] = true;</script>
+
+  <script id="gapi-target" nonce="" src="./World Population by Year _ Kaggle_files/api.js.download" defer="" async="" gapi_processed="true"></script>
+  <script nonce="" src="./World Population by Year _ Kaggle_files/runtime.js.download" data-turbolinks-track="reload"></script>
+  <script nonce="" src="./World Population by Year _ Kaggle_files/vendor.js.download" data-turbolinks-track="reload"></script>
+  <script nonce="" src="./World Population by Year _ Kaggle_files/app.js.download" data-turbolinks-track="reload"></script>
+    <script nonce="" type="text/javascript">
+      window.kaggleStackdriverConfig = {
+        key: 'AIzaSyA4eNqUdRRskJsCZWVz-qL655Xa5JEMreE',
+        projectId: 'kaggle-161607',
+        service: 'web-fe',
+        version: 'ci',
+        userId: '0'
+      }
+    </script>
+<link rel="stylesheet" type="text/css" href="./World Population by Year _ Kaggle_files/7109.f05e0b5a455176acc2cf.css"><link rel="stylesheet" type="text/css" href="./World Population by Year _ Kaggle_files/9374.e4d036cc7838be5eaef3.css"><link rel="stylesheet" type="text/css" href="./World Population by Year _ Kaggle_files/4761.401d1e87a98986f7becb.css"><link rel="stylesheet" type="text/css" href="./World Population by Year _ Kaggle_files/datasetContainer.3092613c9d0debaa9331.css"><style data-styled="active" data-styled-version="5.3.0"></style><link rel="stylesheet" type="text/css" href="./World Population by Year _ Kaggle_files/4.203e4ddbf8e58555799c.css"><link rel="stylesheet" type="text/css" href="./World Population by Year _ Kaggle_files/15.0ee55c723b2d8ac67383.css"><script type="text/javascript" src="./World Population by Year _ Kaggle_files/MathJax.js.download"></script><link rel="stylesheet" type="text/css" href="./World Population by Year _ Kaggle_files/5561.9bfe6298d78eda74a00a.css"><style data-react-tooltip="true">.__react_component_tooltip {
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 13px;
+  left: -999em;
+  opacity: 0;
+  padding: 8px 21px;
+  position: fixed;
+  pointer-events: none;
+  transition: opacity 0.3s ease-out;
+  top: -999em;
+  visibility: hidden;
+  z-index: 999;
+}
+.__react_component_tooltip.allow_hover, .__react_component_tooltip.allow_click {
+  pointer-events: auto;
+}
+.__react_component_tooltip::before, .__react_component_tooltip::after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+.__react_component_tooltip.show {
+  opacity: 0.9;
+  margin-top: 0;
+  margin-left: 0;
+  visibility: visible;
+}
+.__react_component_tooltip.place-top::before {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  bottom: -8px;
+  left: 50%;
+  margin-left: -10px;
+}
+.__react_component_tooltip.place-bottom::before {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  top: -8px;
+  left: 50%;
+  margin-left: -10px;
+}
+.__react_component_tooltip.place-left::before {
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  right: -8px;
+  top: 50%;
+  margin-top: -5px;
+}
+.__react_component_tooltip.place-right::before {
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  left: -8px;
+  top: 50%;
+  margin-top: -5px;
+}
+.__react_component_tooltip .multi-line {
+  display: block;
+  padding: 2px 0;
+  text-align: center;
+}</style><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888; display: contents}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover, .MJXp-munder {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > *, .MJXp-munder > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><script type="text/javascript" charset="UTF-8" src="./World Population by Year _ Kaggle_files/loader.js.download" nonce=""></script><link id="load-css-0" rel="stylesheet" type="text/css" href="./World Population by Year _ Kaggle_files/tooltip.css"><link id="load-css-1" rel="stylesheet" type="text/css" href="./World Population by Year _ Kaggle_files/util.css"><link id="load-css-2" rel="stylesheet" type="text/css" href="./World Population by Year _ Kaggle_files/controls.css"><script type="text/javascript" charset="UTF-8" src="./World Population by Year _ Kaggle_files/jsapi_compiled_default_module.js.download" nonce=""></script><script type="text/javascript" charset="UTF-8" src="./World Population by Year _ Kaggle_files/jsapi_compiled_graphics_module.js.download" nonce=""></script><script type="text/javascript" charset="UTF-8" src="./World Population by Year _ Kaggle_files/jsapi_compiled_ui_module.js.download" nonce=""></script><script type="text/javascript" charset="UTF-8" src="./World Population by Year _ Kaggle_files/jsapi_compiled_corechart_module.js.download" nonce=""></script><script type="text/javascript" charset="UTF-8" src="./World Population by Year _ Kaggle_files/jsapi_compiled_controls_module.js.download" nonce=""></script></head>
+
+<body data-turbolinks="false"><div id="MathJax_Message" style="display: none;"></div>
+  <main>
+    
+
+
+
+
+
+
+<div id="site-container"><div style="--mdc-theme-on-primary:#fff; --mdc-theme-on-surface:rgba(0, 0, 0, 0.87); --mdc-theme-text-primary-on-background:rgba(0, 0, 0, 0.87); --mdc-theme-text-secondary-on-background:rgba(0, 0, 0, 0.54); --mdc-theme-text-hint-on-background:rgba(0, 0, 0, 0.38); --mdc-theme-text-disabled-on-background:rgba(0, 0, 0, 0.38); --mdc-theme-text-icon-on-background:rgba(0, 0, 0, 0.38); --mdc-theme-primary:#20BEFF; --mdc-theme-error:#F58B8A; --mdc-theme-background:#F8F8F8; --mdc-theme-surface:#fff; --mdc-theme-primary-bg:#20BEFF; --mdc-theme-secondary-bg:#919294;"><div class="sc-jtiXyc diiOTc"><div class="sc-ellfGf lptTzL"><div class="sc-htmcrh emRwHY"><div class="sc-cbeScs dIPyxh"><button aria-label="menu" class="sc-jSFjdj iMZsEG google-material-icons">menu</button></div><a href="https://www.kaggle.com/sansuthi/world-population-by-year#site-content" class="sc-dTSzeu krkYvd">Skip to<br>content</a><div class="sc-hkeOVe kKMEgc"><a href="https://www.kaggle.com/"><img src="./World Population by Year _ Kaggle_files/site-logo.png" alt="Kaggle" class="sc-jlZJtj QgNfY"></a></div></div></div><div class="sc-kizEQm irzWzB"><div class="sc-cKRKFl hAFcgA"><div class="sc-dvUynV eRQElH"><div class="sc-eXuyPJ gwOyTS"><i sizevalue="24px" class="rmwc-icon google-material-icons sc-gKAaRy iExPwm sc-eWnToP gXXUhs">search</i><input placeholder="Search" aria-label="Search" class="sc-iGkqmO dUkJQj" value=""></div></div></div><div class="sc-iIgjPs krBuaG"><div class="sc-eEVmNe illmTA"><div class="sc-fmdNqN bZiXbQ"><a href="https://www.kaggle.com/account/login?phase=startSignInTab&amp;returnUrl=%2Fsansuthi%2Fworld-population-by-year" class="sc-ljsmAU jFDlvU"><button class="sc-jXcxbT iPKBep" tabindex="0" role="button"><span class="sc-iklJeh sc-jJMGnK kOwaVM laKGqb">Sign In</span></button></a></div><div class="sc-fmdNqN bZiXbQ"><a href="https://www.kaggle.com/account/login?phase=startRegisterTab&amp;returnUrl=%2Fsansuthi%2Fworld-population-by-year" class="sc-ljsmAU jFDlvU"><button class="sc-jXcxbT hyxMVk" tabindex="0" role="button"><span class="sc-iklJeh sc-jJMGnK kOwaVM laKGqb">Register</span></button></a></div></div></div></div></div><div class="sc-iXeHaJ sc-hKiEVl gGGkcd fkHbDV"><div class="sc-exqIPC leuDbu"><div class="sc-htmcrh emRwHY"><div class="sc-cbeScs dIPyxh"><button aria-label="menu" class="sc-jSFjdj iMZsEG google-material-icons">menu</button></div><a href="https://www.kaggle.com/sansuthi/world-population-by-year#site-content" class="sc-dTSzeu krkYvd">Skip to<br>content</a><div class="sc-hkeOVe kKMEgc"><a href="https://www.kaggle.com/"><img src="./World Population by Year _ Kaggle_files/site-logo.png" alt="Kaggle" class="sc-jlZJtj QgNfY"></a></div></div><button class="sc-jLqRGG jrILsN"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink: 0;"><path fill-rule="evenodd" clip-rule="evenodd" d="M20 30L20 16L16 20L16 30L20 30Z" fill="#20BEFF"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M20 20L30 20L30 16L20 16L20 20Z" fill="#20BEFF"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M16 20L20 16L15.937 16L6 16L6 20L16 20Z" fill="#20BEFF"></path><rect x="20" y="16" width="4" height="10" transform="rotate(-180 20 16)" fill="#20BEFF"></rect></svg><span class="sc-lmgQwP sc-iJCRrE sc-bUQyIj jgNMXa bojiJp fgxHuH">Create</span></button><div aria-hidden="true" class="mdc-menu sc-TtZnY bvayVJ sc-tsGVs liNYvh mdc-menu-surface" style="transform-origin: left top; left: 0px; top: 0px; max-height: 568px;"><div role="menu" class="mdc-list mdc-menu__items mdc-list"><div role="menuitem" tabindex="0" class="sc-fcmMJX cbBcjQ mdc-ripple-upgraded sc-fcmMJX cbBcjQ mdc-list-item"><div class="sc-gsWcmt grZHMV"><i emphasis="low" sizevalue="24px" class="rmwc-icon google-material-icons sc-gKAaRy yTsEt sc-GvhzO kSqeJg">code</i><p class="sc-fKgJPI sc-bCwfaz bSYwtb hzzSzX">New Notebook</p></div></div><div role="menuitem" tabindex="0" class="sc-fcmMJX cbBcjQ mdc-ripple-upgraded sc-fcmMJX cbBcjQ mdc-list-item"><div class="sc-gsWcmt grZHMV"><i emphasis="low" sizevalue="24px" class="rmwc-icon google-material-icons sc-gKAaRy yTsEt sc-GvhzO kSqeJg">table_chart</i><p class="sc-fKgJPI sc-bCwfaz bSYwtb hzzSzX">New Dataset</p></div></div></div></div><div class="sc-JsfZP kBcPwt"><div class="sc-gGGFjW gDwVVx"><div class="sc-dvUynV eRQElH"><div class="sc-eXuyPJ gwOyTS"><i sizevalue="24px" class="rmwc-icon google-material-icons sc-gKAaRy iExPwm sc-eWnToP gXXUhs">search</i><input placeholder="Search" aria-label="Search" class="sc-iGkqmO dUkJQj" value=""></div></div></div><ul class="km-list"><li class="sc-bBjRSN cdTyhF"><div class="sc-cOifOu fDKoDk sc-hYRTwp ewANFE"><a class="sc-hTRkXV enlJuL" href="https://www.kaggle.com/"><i emphasis="low" sizevalue="24px" class="rmwc-icon google-material-icons sc-gKAaRy yTsEt sc-cGKJhA fTwFWY">explore</i><p class="sc-dlMDgC sc-kfYoZR fezfGr lpaEYv" style="padding-left: 20px;">Home</p></a></div></li><li class="sc-bBjRSN cdTyhF"><div class="sc-cOifOu fDKoDk sc-hYRTwp ewANFE"><a class="sc-hTRkXV enlJuL" href="https://www.kaggle.com/competitions"><i emphasis="low" sizevalue="24px" class="rmwc-icon google-material-icons sc-gKAaRy yTsEt sc-cGKJhA fTwFWY">emoji_events</i><p class="sc-dlMDgC sc-kfYoZR fezfGr lpaEYv" style="padding-left: 20px;">Competitions</p></a></div></li><li class="sc-bBjRSN cdTyhF"><div class="sc-cOifOu bhYTow sc-hYRTwp ewANFE"><a class="sc-hTRkXV enlJuL" href="https://www.kaggle.com/datasets"><i emphasis="high" sizevalue="24px" class="rmwc-icon google-material-icons sc-gKAaRy iExPwm sc-cGKJhA fTwFWY">table_chart</i><p class="sc-dlMDgC sc-kfYoZR mLwaE lpaEYv" style="padding-left: 20px;">Datasets</p><div class="sc-dSnXvR sOQfA"></div></a></div></li><li class="sc-bBjRSN cdTyhF"><div class="sc-cOifOu fDKoDk sc-hYRTwp ewANFE"><a class="sc-hTRkXV enlJuL" href="https://www.kaggle.com/code"><i emphasis="low" sizevalue="24px" class="rmwc-icon google-material-icons sc-gKAaRy yTsEt sc-cGKJhA fTwFWY">code</i><p class="sc-dlMDgC sc-kfYoZR fezfGr lpaEYv" style="padding-left: 20px;">Code</p></a></div></li><li class="sc-bBjRSN cdTyhF"><div class="sc-cOifOu fDKoDk sc-hYRTwp ewANFE"><a class="sc-hTRkXV enlJuL" href="https://www.kaggle.com/discussion"><i emphasis="low" sizevalue="24px" class="rmwc-icon google-material-icons sc-gKAaRy yTsEt sc-cGKJhA fTwFWY">comment</i><p class="sc-dlMDgC sc-kfYoZR fezfGr lpaEYv" style="padding-left: 20px;">Discussions</p></a></div></li><li class="sc-bBjRSN cdTyhF"><div class="sc-cOifOu fDKoDk sc-hYRTwp ewANFE"><a class="sc-hTRkXV enlJuL" href="https://www.kaggle.com/learn"><i emphasis="low" sizevalue="24px" class="rmwc-icon google-material-icons sc-gKAaRy yTsEt sc-cGKJhA fTwFWY">school</i><p class="sc-dlMDgC sc-kfYoZR fezfGr lpaEYv" style="padding-left: 20px;">Courses</p></a></div></li><li class="sc-bBjRSN cdTyhF"><div class="sc-cOifOu fDKoDk sc-hYRTwp ewANFE"><a class="sc-hTRkXV enlJuL" href="https://www.kaggle.com/sansuthi/world-population-by-year#"><i emphasis="low" sizevalue="24px" class="rmwc-icon google-material-icons sc-gKAaRy yTsEt sc-cGKJhA fTwFWY">expand_more</i><p class="sc-dlMDgC sc-kfYoZR fezfGr lpaEYv" style="padding-left: 20px;">More</p></a></div></li></ul></div><div class="sc-hYIrvc fUygGX"></div></div><div class="sc-eiQWpL koCxyi"><div class="mdc-menu-surface--anchor"><button class="sc-hfVBHA hwRvcL"><div class="sc-dbXCOC fCfyBJ"><i emphasis="high" sizevalue="24px" class="rmwc-icon google-material-icons sc-gKAaRy iExPwm sc-ehALMs carCnm">auto_awesome_motion</i><div color="#FAE041" class="sc-hGwcmR hJeCDs">0</div></div><p class="sc-dlMDgC sc-kfYoZR sc-fiCYzP fezfGr lpaEYv kZnrek">View Active Events</p></button></div></div></div><div class="sc-lfRxJW hEXbrR"><div class="sc-hndLF iWOYzY"><div class="sc-htmcrh emRwHY"><div class="sc-cbeScs dIPyxh"><button aria-label="menu" class="sc-jSFjdj iMZsEG google-material-icons">menu</button></div><a href="https://www.kaggle.com/sansuthi/world-population-by-year#site-content" class="sc-dTSzeu krkYvd">Skip to<br>content</a><div class="sc-hkeOVe kKMEgc"><a href="https://www.kaggle.com/"><img src="./World Population by Year _ Kaggle_files/site-logo.png" alt="Kaggle" class="sc-jlZJtj QgNfY"></a></div></div></div><button class="sc-jLqRGG fxExTk"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink: 0;"><path fill-rule="evenodd" clip-rule="evenodd" d="M20 30L20 16L16 20L16 30L20 30Z" fill="#20BEFF"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M20 20L30 20L30 16L20 16L20 20Z" fill="#20BEFF"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M16 20L20 16L15.937 16L6 16L6 20L16 20Z" fill="#20BEFF"></path><rect x="20" y="16" width="4" height="10" transform="rotate(-180 20 16)" fill="#20BEFF"></rect></svg><span class="sc-lmgQwP sc-iJCRrE sc-bUQyIj jgNMXa bojiJp hPAeKv">Create</span></button><div aria-hidden="true" class="mdc-menu sc-TtZnY bvayVJ sc-tsGVs liNYvh mdc-menu-surface" style="transform-origin: left top; left: 0px; top: 0px; max-height: 568px;"><div role="menu" class="mdc-list mdc-menu__items mdc-list"><div role="menuitem" tabindex="0" class="sc-fcmMJX cbBcjQ mdc-ripple-upgraded sc-fcmMJX cbBcjQ mdc-list-item"><div class="sc-gsWcmt grZHMV"><i emphasis="low" sizevalue="24px" class="rmwc-icon google-material-icons sc-gKAaRy yTsEt sc-GvhzO kSqeJg">code</i><p class="sc-fKgJPI sc-bCwfaz bSYwtb hzzSzX">New Notebook</p></div></div><div role="menuitem" tabindex="0" class="sc-fcmMJX cbBcjQ mdc-ripple-upgraded sc-fcmMJX cbBcjQ mdc-list-item"><div class="sc-gsWcmt grZHMV"><i emphasis="low" sizevalue="24px" class="rmwc-icon google-material-icons sc-gKAaRy yTsEt sc-GvhzO kSqeJg">table_chart</i><p class="sc-fKgJPI sc-bCwfaz bSYwtb hzzSzX">New Dataset</p></div></div></div></div><div class="sc-JsfZP kBcPwt"><div class="sc-gGGFjW gDwVVx"><div class="sc-dvUynV eRQElH"><div class="sc-eXuyPJ gwOyTS"><i sizevalue="24px" class="rmwc-icon google-material-icons sc-gKAaRy iExPwm sc-eWnToP gXXUhs">search</i><input placeholder="Search" aria-label="Search" class="sc-iGkqmO dUkJQj" value=""></div></div></div><ul class="km-list"><li class="sc-bBjRSN cdTyhF"><div class="sc-cOifOu fDKoDk sc-hYRTwp ewANFE"><a class="sc-hTRkXV enlJuL" href="https://www.kaggle.com/"><i emphasis="low" sizevalue="24px" class="rmwc-icon google-material-icons sc-gKAaRy yTsEt sc-cGKJhA fTwFWY">explore</i><p class="sc-dlMDgC sc-kfYoZR fezfGr lpaEYv" style="padding-left: 20px;">Home</p></a></div></li><li class="sc-bBjRSN cdTyhF"><div class="sc-cOifOu fDKoDk sc-hYRTwp ewANFE"><a class="sc-hTRkXV enlJuL" href="https://www.kaggle.com/competitions"><i emphasis="low" sizevalue="24px" class="rmwc-icon google-material-icons sc-gKAaRy yTsEt sc-cGKJhA fTwFWY">emoji_events</i><p class="sc-dlMDgC sc-kfYoZR fezfGr lpaEYv" style="padding-left: 20px;">Competitions</p></a></div></li><li class="sc-bBjRSN cdTyhF"><div class="sc-cOifOu bhYTow sc-hYRTwp ewANFE"><a class="sc-hTRkXV enlJuL" href="https://www.kaggle.com/datasets"><i emphasis="high" sizevalue="24px" class="rmwc-icon google-material-icons sc-gKAaRy iExPwm sc-cGKJhA fTwFWY">table_chart</i><p class="sc-dlMDgC sc-kfYoZR mLwaE lpaEYv" style="padding-left: 20px;">Datasets</p><div class="sc-dSnXvR sOQfA"></div></a></div></li><li class="sc-bBjRSN cdTyhF"><div class="sc-cOifOu fDKoDk sc-hYRTwp ewANFE"><a class="sc-hTRkXV enlJuL" href="https://www.kaggle.com/code"><i emphasis="low" sizevalue="24px" class="rmwc-icon google-material-icons sc-gKAaRy yTsEt sc-cGKJhA fTwFWY">code</i><p class="sc-dlMDgC sc-kfYoZR fezfGr lpaEYv" style="padding-left: 20px;">Code</p></a></div></li><li class="sc-bBjRSN cdTyhF"><div class="sc-cOifOu fDKoDk sc-hYRTwp ewANFE"><a class="sc-hTRkXV enlJuL" href="https://www.kaggle.com/discussion"><i emphasis="low" sizevalue="24px" class="rmwc-icon google-material-icons sc-gKAaRy yTsEt sc-cGKJhA fTwFWY">comment</i><p class="sc-dlMDgC sc-kfYoZR fezfGr lpaEYv" style="padding-left: 20px;">Discussions</p></a></div></li><li class="sc-bBjRSN cdTyhF"><div class="sc-cOifOu fDKoDk sc-hYRTwp ewANFE"><a class="sc-hTRkXV enlJuL" href="https://www.kaggle.com/learn"><i emphasis="low" sizevalue="24px" class="rmwc-icon google-material-icons sc-gKAaRy yTsEt sc-cGKJhA fTwFWY">school</i><p class="sc-dlMDgC sc-kfYoZR fezfGr lpaEYv" style="padding-left: 20px;">Courses</p></a></div></li><li class="sc-bBjRSN cdTyhF"><div class="sc-cOifOu fDKoDk sc-hYRTwp ewANFE"><a class="sc-hTRkXV enlJuL" href="https://www.kaggle.com/sansuthi/world-population-by-year#"><i emphasis="low" sizevalue="24px" class="rmwc-icon google-material-icons sc-gKAaRy yTsEt sc-cGKJhA fTwFWY">expand_more</i><p class="sc-dlMDgC sc-kfYoZR fezfGr lpaEYv" style="padding-left: 20px;">More</p></a></div></li></ul></div><div class="sc-oeezt bFEqET"></div><div class="mdc-menu-surface--anchor"><button class="sc-hfVBHA hwRvcL"><div class="sc-dbXCOC fCfyBJ"><i emphasis="high" sizevalue="24px" class="rmwc-icon google-material-icons sc-gKAaRy iExPwm sc-ehALMs carCnm">auto_awesome_motion</i><div color="#FAE041" class="sc-hGwcmR hJeCDs">0</div></div><p class="sc-dlMDgC sc-kfYoZR sc-fiCYzP fezfGr lpaEYv kZnrek">View Active Events</p></button></div></div><div data-testid="searchContainer" class="sc-iazTlQ gziiAL"><div></div><div class="sc-eSRwjH gnEhYt"><div></div></div></div><div id="site-content" class="sc-dkiSSI bpigdf"><div class="sc-cVJgsR ewjAsp"><div class="sc-bdnxRM dHFIQf"><div class="sc-gtsrHT jOwbqk">We use cookies on Kaggle to deliver our services, analyze web traffic, and improve your experience on the site. By using Kaggle, you agree to our use of cookies.</div><div class="sc-dlnjwi fTtXFy"><div class="sc-hKFxyN brnUiQ">Got it</div><a href="https://www.kaggle.com/cookies" class="sc-eCApnc iylGhi"><div class="sc-hKFxyN brnUiQ">Learn more</div></a></div></div></div><div id="site-body" class="">
+    
+
+
+<div data-component-name="DatasetContainer" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"discussion":{"canDownvote":false,"dataUrl":"/forums/1391868/topics.json","id":1391868,"showSubscribeButton":false,"isSubscribed":false,"subscription":"unsubscribe","paramValues":{"category":"all","page":1,"search":null,"group":"all","sortBy":"hot"}},"currentTab":"home","newTopic":{"allowAttachments":false,"authorRanking":null,"authorTier":"novice","authorType":"topic","forumId":1391868,"parentName":"World Population by Year","parentUrl":"/sansuthi/world-population-by-year/discussion","isPrivate":false},"categories":{"tags":[{"id":11200,"name":"social science","fullPath":"subject \u003e people and society \u003e social science","listingUrl":"/datasets?group=public\u0026tagids=11200","description":"Social science is the collection of disciplines studying how humans interact with each other.","datasetCount":2628,"competitionCount":0,"notebookCount":568,"tagUrl":"/tags/social-sciences","displayName":"Social Science","fontAwesomeIcon":""},{"id":14104,"name":"text data","fullPath":"data type \u003e text data","listingUrl":"/datasets?group=public\u0026tagids=14104","description":null,"datasetCount":1785,"competitionCount":39,"notebookCount":2000,"tagUrl":"/tags/text-data","displayName":"Text Data","fontAwesomeIcon":""},{"id":13208,"name":"data visualization","fullPath":"technique \u003e data visualization","listingUrl":"/datasets?group=public\u0026tagids=13208","description":"The art of depicting data in a visual format. Using charts and graphs, it is easier to observe patterns, relationships, and outliers.","datasetCount":1259,"competitionCount":0,"notebookCount":21639,"tagUrl":"/tags/data-visualization","displayName":"Data Visualization","fontAwesomeIcon":""},{"id":13201,"name":"exploratory data analysis","fullPath":"technique \u003e exploratory data analysis","listingUrl":"/datasets?group=public\u0026tagids=13201","description":null,"datasetCount":1011,"competitionCount":0,"notebookCount":18426,"tagUrl":"/tags/eda","displayName":"Exploratory Data Analysis","fontAwesomeIcon":""},{"id":8100,"name":"people","fullPath":"subject \u003e people and society \u003e people","listingUrl":"/datasets?group=public\u0026tagids=8100","description":"This tag is for collections of information about, you guessed it, people.","datasetCount":152,"competitionCount":2,"notebookCount":30,"tagUrl":"/tags/people","displayName":"People","fontAwesomeIcon":""}],"type":"dataset"},"upvoteSuggestion":{"voteCount":51,"medalVoteCount":18,"upVoters":[{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/769452-kg.jpg","displayName":"Gabriel Preda","profileUrl":"/gpreda","tier":"Grandmaster","tierInt":4,"userId":769452,"userName":"gpreda"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/3012786-kg.JPG","displayName":"Marília Prata","profileUrl":"/mpwolke","tier":"Master","tierInt":3,"userId":3012786,"userName":"mpwolke"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2681031-kg.jpg","displayName":"Brenda N","profileUrl":"/brendan45774","tier":"Master","tierInt":3,"userId":2681031,"userName":"brendan45774"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/6096594-kg.jpg","displayName":"Anandhu H","profileUrl":"/anandhuh","tier":"Master","tierInt":3,"userId":6096594,"userName":"anandhuh"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/4429509-kg.jpg","displayName":"Sohom Majumder","profileUrl":"/sohommajumder21","tier":"Master","tierInt":3,"userId":4429509,"userName":"sohommajumder21"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/5866221-kg.jpg","displayName":"FunkyMonk","profileUrl":"/creepycrap","tier":"Expert","tierInt":2,"userId":5866221,"userName":"creepycrap"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/6396210-kg.jpg","displayName":"YashSharma","profileUrl":"/yashsharmabharatpur","tier":"Expert","tierInt":2,"userId":6396210,"userName":"yashsharmabharatpur"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/7274535-kg.jpg","displayName":"PavelBiz","profileUrl":"/pavelbiz","tier":"Expert","tierInt":2,"userId":7274535,"userName":"pavelbiz"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/7049767-kg.jpg","displayName":"Mehul Patole","profileUrl":"/mehulpatole31","tier":"Expert","tierInt":2,"userId":7049767,"userName":"mehulpatole31"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"TARIQUE RIZWAN","profileUrl":"/tariquerizwaan","tier":"Contributor","tierInt":1,"userId":7650203,"userName":"tariquerizwaan"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"anand12","profileUrl":"/anandhu98","tier":"Contributor","tierInt":1,"userId":7587252,"userName":"anandhu98"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/7859950-kg.jpg","displayName":"Godfrey Ovie Gimoh","profileUrl":"/godfreyoviegimoh","tier":"Contributor","tierInt":1,"userId":7859950,"userName":"godfreyoviegimoh"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Vedant Korhale","profileUrl":"/vedantkorhale","tier":"Contributor","tierInt":1,"userId":7812269,"userName":"vedantkorhale"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/7800601-kg.jpg","displayName":"shivam shukla","profileUrl":"/shivamshukla19","tier":"Contributor","tierInt":1,"userId":7800601,"userName":"shivamshukla19"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"vignesh s","profileUrl":"/vigneshs1","tier":"Contributor","tierInt":1,"userId":7754280,"userName":"vigneshs1"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Advait Vagerwal","profileUrl":"/advaitvagerwal","tier":"Contributor","tierInt":1,"userId":7429660,"userName":"advaitvagerwal"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"KSurendra","profileUrl":"/surendra01","tier":"Contributor","tierInt":1,"userId":3035274,"userName":"surendra01"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2329707-kg.JPG","displayName":"mbmlearner","profileUrl":"/mbmlearner","tier":"Contributor","tierInt":1,"userId":2329707,"userName":"mbmlearner"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/874716-gp.jpg","displayName":"MasixoleNondumo","profileUrl":"/maxmilliannondumo","tier":"Novice","tierInt":0,"userId":874716,"userName":"maxmilliannondumo"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Austin Glendinning","profileUrl":"/austinglendinning","tier":"Novice","tierInt":0,"userId":5712238,"userName":"austinglendinning"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/5999928-kg.jpeg","displayName":"kamran_hccp","profileUrl":"/kamranhccp","tier":"Novice","tierInt":0,"userId":5999928,"userName":"kamranhccp"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"anand b","profileUrl":"/anandbml","tier":"Novice","tierInt":0,"userId":7736219,"userName":"anandbml"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Dolev Shaked","profileUrl":"/dolevshaked","tier":"Novice","tierInt":0,"userId":7732533,"userName":"dolevshaked"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Miss Miscalculation","profileUrl":"/missmiscalculation","tier":"Novice","tierInt":0,"userId":7681782,"userName":"missmiscalculation"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Richie Ritz","profileUrl":"/richieritz","tier":"Novice","tierInt":0,"userId":7676616,"userName":"richieritz"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Javier David","profileUrl":"/javierdavid","tier":"Novice","tierInt":0,"userId":7656730,"userName":"javierdavid"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Alejandro Ruiz Correa","profileUrl":"/alejandroruizcorrea","tier":"Novice","tierInt":0,"userId":7654874,"userName":"alejandroruizcorrea"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"John Mohan","profileUrl":"/johnnyboy01","tier":"Novice","tierInt":0,"userId":7787268,"userName":"johnnyboy01"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"CARLOS ANDRES PARRA VERA","profileUrl":"/carlos16061999","tier":"Novice","tierInt":0,"userId":7784353,"userName":"carlos16061999"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Ayodeji Okegbenle","profileUrl":"/ayodejiokegbenle","tier":"Novice","tierInt":0,"userId":7768256,"userName":"ayodejiokegbenle"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Javier Miro","profileUrl":"/javiermiro","tier":"Novice","tierInt":0,"userId":8086655,"userName":"javiermiro"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Olumide Olakolu","profileUrl":"/olumideolakolu","tier":"Novice","tierInt":0,"userId":8079476,"userName":"olumideolakolu"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Quoc Nguyen Hung","profileUrl":"/quocnguyenhung","tier":"Novice","tierInt":0,"userId":8012623,"userName":"quocnguyenhung"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"V V Satyanarayana Nallam","profileUrl":"/cnvvsnarayana87","tier":"Novice","tierInt":0,"userId":7986196,"userName":"cnvvsnarayana87"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Jakub Gla","profileUrl":"/jakubgla","tier":"Novice","tierInt":0,"userId":7984582,"userName":"jakubgla"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Armanpreet kaur176","profileUrl":"/armanpreetkaur176","tier":"Novice","tierInt":0,"userId":7936141,"userName":"armanpreetkaur176"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Magma Boony","profileUrl":"/magmaboony","tier":"Novice","tierInt":0,"userId":7920656,"userName":"magmaboony"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Jung_7224","profileUrl":"/jung7224","tier":"Novice","tierInt":0,"userId":7918951,"userName":"jung7224"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"chennk","profileUrl":"/chennk","tier":"Novice","tierInt":0,"userId":7582697,"userName":"chennk"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"GEOVANI ALMARAZ","profileUrl":"/geovanialmaraz","tier":"Novice","tierInt":0,"userId":7563245,"userName":"geovanialmaraz"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Hemalatha Pajaniraja","profileUrl":"/hemalathapajaniraja","tier":"Novice","tierInt":0,"userId":7530700,"userName":"hemalathapajaniraja"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/7530071-kg.JPG","displayName":"Soumen","profileUrl":"/kagglesoumen","tier":"Novice","tierInt":0,"userId":7530071,"userName":"kagglesoumen"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Joseph453","profileUrl":"/joseph453","tier":"Novice","tierInt":0,"userId":7527363,"userName":"joseph453"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Ludolfo Montero","profileUrl":"/ludolfomontero","tier":"Novice","tierInt":0,"userId":7503450,"userName":"ludolfomontero"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Fajar Harva","profileUrl":"/fajarharva","tier":"Novice","tierInt":0,"userId":7495478,"userName":"fajarharva"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"bobkowski","profileUrl":"/bobkowski","tier":"Novice","tierInt":0,"userId":7626045,"userName":"bobkowski"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Tech Universe","profileUrl":"/techuniverse","tier":"Novice","tierInt":0,"userId":7592890,"userName":"techuniverse"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Cường Lê 99","profileUrl":"/cngl99","tier":"Novice","tierInt":0,"userId":7592777,"userName":"cngl99"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Dennis Burkhard","profileUrl":"/dennisburkhard","tier":"Novice","tierInt":0,"userId":7589789,"userName":"dennisburkhard"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/6832826-kg.jpg","displayName":"Kapil Shukla","profileUrl":"/kapirishi","tier":"Novice","tierInt":0,"userId":6832826,"userName":"kapirishi"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Eric Burnham","profileUrl":"/ericburnham","tier":"Novice","tierInt":0,"userId":7066914,"userName":"ericburnham"}]},"readerGroupId":null,"writerGroupId":null,"collaborators":{"owner":{"isUser":true,"isGroup":false,"userId":7044332,"groupId":null,"groupMemberCount":null,"profileUrl":"/sansuthi","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/7044332-kg.png","name":"SANDHYA S","slug":"sansuthi","userTier":2,"joinDate":null,"type":"owner"},"collaborators":[]},"isCollaborator":false,"deletionNeedsReview":false,"hasDatasetDoiApproved":false,"canSeeConfigAsCode":true,"canCreateDatasetTasks":true,"blockTaskCreation":false,"canSeeDatasetHashLink":true,"medalUrl":"/static/images/medals/datasets/bronzel@2x.png","datasetHashLink":null,"datasetId":1372719,"isRemoved":false,"isVersionRemoved":false,"isFeatured":false,"isSuperFeatured":false,"scheduledToBeFeatured":null,"scheduledToBeUnFeatured":null,"scheduledToBeSuperFeatured":null,"scheduledToBeUnSuperFeatured":null,"datasetVersionId":2279067,"datasetVersionNumber":1,"lastVersionNumber":1,"datasetUrl":"/sansuthi/world-population-by-year","datasetExternalUrl":"https://kaggle.com/sansuthi/world-population-by-year","originalImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/1372719/2279067/bec4e0bf13ebd079f53af54c6eeba2e7/data-original.jpg?t=2021-06-15-13-41-44","coverImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/1372719/2279067/bec4e0bf13ebd079f53af54c6eeba2e7/dataset-cover.jpg?t=2021-06-15-13-41-44","cardImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/1372719/2279067/bec4e0bf13ebd079f53af54c6eeba2e7/dataset-card.jpg?t=2021-06-15-13-41-44","thumbnailImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/1372719/2279067/bec4e0bf13ebd079f53af54c6eeba2e7/dataset-thumbnail.jpg?t=2021-06-15-13-41-44","license":{"id":1,"name":"CC0: Public Domain","description":"CC0: Public Domain \u003ca href=\u0022https://creativecommons.org/publicdomain/zero/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/publicdomain/zero/1.0/","displaySequence":null},"voteCount":51,"creatorUserId":7044332,"creatorDisplayName":"SANDHYA S","ownerTwitter":null,"lastUpdated":"2021-05-28T08:21:49.777Z","downloadUrl":"/sansuthi/world-population-by-year/download","newNotebookUrl":"code/scripts/new?datasetVersionId=2279067","newScriptUrl":"code/scripts/new?datasetVersionId=2279067","hasAlreadyVotedUp":false,"isOldDatasetVersion":false,"numberOfViews":7422,"numberOfDownloads":2323,"numberOfScripts":19,"numberOfTopics":0,"numberOfTasks":3,"canEdit":false,"canPerformOwnerTasks":false,"canEditSlug":false,"canEditPublishStatus":false,"canEditFeatureStatus":false,"canEditDescription":false,"hideVersionStatuses":true,"cardImageLeft":749,"cardImageTop":300,"cardImageWidth":630,"cardImageHeight":630,"coverImageLeft":90,"coverImageTop":197,"coverImageWidth":1676,"coverImageHeight":844,"datasetVersions":[{"id":2279067,"slug":"world-population-by-year","name":"World Population by Year","creationDate":"2021-05-28T08:21:49.777Z","versionNumber":1,"versionNotes":"Initial release","thumbnailImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/1372719/2279067/bec4e0bf13ebd079f53af54c6eeba2e7/dataset-thumbnail.jpg?t=2021-06-15-13-41-44","datasetVersionUrl":"/sansuthi/world-population-by-year/version/1","status":"ready","userMessage":null,"isRemoved":false,"creator":{"id":7044332,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/7044332-kg.png","isOrganization":false,"name":"SANDHYA S","profileUrl":"/sansuthi","slug":"sansuthi","maxFileSizeBytes":null,"userTier":null,"organizationMemberCount":null},"userSpecifiedSources":"www.worldometers.info/world-population/world-population-by-year/","doi":null,"databundleVersionId":2320194}],"datasetVersionTotalCount":1,"feed":[],"topicId":null,"isNewTopic":false,"canSeeDeletionButton":false,"checklistDismissed":false,"type":"fileset","diffType":"unversioned","checklistCollapsed":false,"isInFlight":false,"maintainerOrganization":null,"createdByKernel":null,"usabilityRating":{"score":1.0,"columnDescriptionScore":1.0,"coverImageScore":1.0,"fileDescriptionScore":1.0,"fileFormatScore":1.0,"licenseScore":1.0,"overviewScore":1.0,"provenanceScore":1.0,"publicKernelScore":1.0,"subtitleScore":1.0,"tagScore":1.0,"updateFrequencyScore":1.0},"bookmarked":false,"licenseGroups":[{"id":1,"name":"Creative Commons","licenses":[{"id":1,"name":"CC0: Public Domain","description":"CC0: Public Domain \u003ca href=\u0022https://creativecommons.org/publicdomain/zero/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/publicdomain/zero/1.0/","displaySequence":1},{"id":3,"name":"CC BY-NC-SA 4.0","description":"CC BY-NC-SA 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-nc-sa/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nc-sa/4.0/","displaySequence":2},{"id":8,"name":"CC BY-SA 4.0","description":"CC BY-SA 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-sa/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-sa/4.0/","displaySequence":3},{"id":10,"name":"CC BY-SA 3.0","description":"CC BY-SA 3.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-sa/3.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-sa/3.0/","displaySequence":4},{"id":13,"name":"Attribution 4.0 International (CC BY 4.0)","description":"CC-BY 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by/4.0/","displaySequence":5},{"id":14,"name":"Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)","description":"CC-BY-NC 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-nc/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nc/4.0/","displaySequence":6},{"id":16,"name":"Attribution 3.0 Unported (CC BY 3.0)","description":"CC BY 3.0 \u003ca href=\u0022https://creativecommons.org/licenses/by/3.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by/3.0/","displaySequence":7},{"id":17,"name":"Attribution 3.0 IGO (CC BY 3.0 IGO)","description":"CC BY 3.0 IGO \u003ca href=\u0022https://creativecommons.org/licenses/by/3.0/igo/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by/3.0/igo/","displaySequence":8},{"id":19,"name":"Attribution-NonCommercial-ShareAlike 3.0 IGO (CC BY-NC-SA 3.0 IGO)","description":"CC BY-NC-SA 3.0 IGO \u003ca href=\u0022https://creativecommons.org/licenses/by-nc-sa/3.0/igo/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nc-sa/3.0/igo/","displaySequence":9},{"id":22,"name":"Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)","description":"CC BY-ND 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-nd/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nd/4.0/","displaySequence":10},{"id":23,"name":"Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)","description":"CC BY-NC-ND 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-nc-nd/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nc-nd/4.0/","displaySequence":11}],"displaySequence":1},{"id":2,"name":"GPL","licenses":[{"id":9,"name":"GPL 2","description":"GPL 2 \u003ca href=\u0022http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html","displaySequence":1},{"id":25,"name":"GNU Lesser General Public License 3.0","description":"LGPL 3.0 \u003ca href=\u0022http://www.gnu.org/licenses/lgpl-3.0.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://www.gnu.org/licenses/lgpl-3.0.html","displaySequence":2},{"id":26,"name":"GNU Affero General Public License 3.0","description":"AGPL 3.0 \u003ca href=\u0022http://www.gnu.org/licenses/agpl-3.0.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://www.gnu.org/licenses/agpl-3.0.html","displaySequence":3},{"id":27,"name":"GNU Free Documentation License 1.3","description":"FDL 1.3 \u003ca href=\u0022http://www.gnu.org/licenses/fdl-1.3.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://www.gnu.org/licenses/fdl-1.3.html","displaySequence":4}],"displaySequence":2},{"id":3,"name":"Open Data Commons","licenses":[{"id":5,"name":"Database: Open Database, Contents: Database Contents","description":"Database: Open Database \u003ca href=\u0022http://opendatacommons.org/licenses/odbl/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e, Contents: Database Contents \u003ca href=\u0022http://opendatacommons.org/licenses/dbcl/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://opendatacommons.org/licenses/dbcl/1.0/","displaySequence":1},{"id":6,"name":"Database: Open Database, Contents: © Original Authors","description":"Database: Open Database \u003ca href=\u0022http://opendatacommons.org/licenses/odbl/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e, Contents: © Original Authors","url":"http://opendatacommons.org/licenses/odbl/1.0/","displaySequence":2},{"id":15,"name":"ODC Public Domain Dedication and Licence (PDDL)","description":"PDDL  \u003ca href=\u0022https://opendatacommons.org/licenses/pddl/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://opendatacommons.org/licenses/pddl/1.0/","displaySequence":3},{"id":24,"name":"ODC Attribution License (ODC-By)","description":"ODC-BY 1.0 \u003ca href=\u0022https://opendatacommons.org/licenses/by/1-0/index.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://opendatacommons.org/licenses/by/1-0/index.html","displaySequence":4}],"displaySequence":3},{"id":6,"name":"Community Data License","licenses":[{"id":20,"name":"Community Data License Agreement - Permissive - Version 1.0","description":"CDLA Permissive 1.0 \u003ca href=\u0022https://cdla.io/permissive-1-0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://cdla.io/permissive-1-0/","displaySequence":1},{"id":21,"name":"Community Data License Agreement - Sharing - Version 1.0","description":"CDLA Sharing 1.0 \u003ca href=\u0022https://cdla.io/sharing-1-0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://cdla.io/sharing-1-0/","displaySequence":2}],"displaySequence":4},{"id":4,"name":"Special","licenses":[{"id":7,"name":"World Bank Dataset Terms of Use","description":"World Bank Dataset Terms of Use \u003ca href=\u0022https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets","displaySequence":1},{"id":2,"name":"Reddit API Terms","description":"Reddit API Terms \u003ca href=\u0022https://www.reddit.com/wiki/api\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://www.reddit.com/wiki/api","displaySequence":2},{"id":18,"name":"U.S. Government Works","description":"U.S. Government Works \u003ca href=\u0022https://www.usa.gov/government-works/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://www.usa.gov/government-works/","displaySequence":3},{"id":28,"name":"EU ODP Legal Notice","description":"EU ODP Legal Notice \u003ca href=\u0022https://ec.europa.eu/info/legal-notice_en\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://ec.europa.eu/info/legal-notice_en","displaySequence":4}],"displaySequence":5},{"id":5,"name":"Other","licenses":[{"id":11,"name":"Data files © Original Authors","description":"Data files © Original Authors","url":null,"displaySequence":1},{"id":12,"name":"Other (specified in description)","description":"Other (specified in description)","url":null,"displaySequence":2},{"id":4,"name":"Unknown","description":"Unknown","url":null,"displaySequence":3}],"displaySequence":6}],"owners":[{"id":0,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/","isOrganization":false,"name":"","profileUrl":"/","slug":"","maxFileSizeBytes":null,"userTier":null,"organizationMemberCount":null},{"id":7044332,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/7044332-kg.png","isOrganization":false,"name":"SANDHYA S","profileUrl":"/sansuthi","slug":"sansuthi","maxFileSizeBytes":null,"userTier":2,"organizationMemberCount":null}],"referrer":null,"convertToStandardCsvFormat":false,"overview":"Population 1951 - 2020","description":"### Variables:\n* **Year:** 1951 to 2020\n* **Population:** World Population\n* **ChangePerc:** Yearly Change in Percentage\n* **NetChange**: Total Yearly Change\n* **Density:** Density in P/Km²\t\n* **Urban:** Urban Population \n* **UrbanPerc:** Urban Population Percentage\n\nSource of content: www.worldometers.info","actions":[],"flags":[],"title":"World Population by Year","slug":"world-population-by-year","licenseId":1,"data":{"firestorePath":"IjUfVIUJUWKBwHaq91qX/versions/w4hegQp5b06kGlKRAFx2","databundleVersionId":2320194,"databundle":{"type":"databundle","databundleInfo":{"currentDatabundleVersionId":2320194,"databundleType":"dataset","diffType":"versioned","creationDate":"2021-05-28T08:21:49.8708844Z","creatorUserId":7044332,"removalDate":null,"currentGoodVersionKey":"w4hegQp5b06kGlKRAFx2","lastestVersionKey":"w4hegQp5b06kGlKRAFx2","versions":{"totalChildren":1,"count":0,"children":[]}},"datasetInfo":{"datasetId":1372719,"datasetSlug":"/sansuthi/world-population-by-year","isPrivate":true},"competitionInfo":null,"remoteDatasourceInfo":null,"bigqueryInfo":null,"githubInfo":null,"key":"IjUfVIUJUWKBwHaq91qX","path":"IjUfVIUJUWKBwHaq91qX","legacyEntityId":1396832,"relativeUrl":"","name":"World Population by Year","description":null},"databundleVersion":{"type":"databundleVersion","databundleVersionInfo":{"versionNumber":1,"versionNotes":"Initial release","creatorUserId":7044332,"creationDate":"2021-05-28T08:21:49.8709348Z","removalDate":null,"databundleVersionType":"fileset","objectTypeCount":{}},"datasetVersionInfo":{"datasetVersionId":2279067},"statusInfo":{"status":"ready","statusMessage":"Ready","percentageCompleted":1.0},"exceptionInfo":{"criticalException":null,"warningExceptions":[]},"filesetInfo":{"totalSize":3401,"directories":{"totalChildren":0,"count":0,"children":[]},"files":{"totalChildren":1,"count":0,"children":[]}},"originalCompressionInfo":null,"bundleCompressionInfo":{"filename":"archive.zip","fileExtension":".zip","fileSize":1831,"contentEncoding":"application/zip","contentMD5":"TPRVMuOeOf+2nFWwDh5StA==","archiveGcsUrl":"gs://kaggle-data-sets/1372719/2279067/bundle/archive.zip","creationLastUpdate":"2021-05-28T08:21:51.6613394Z","creationPercentComplete":1.0},"bigquerySnapshotInfo":null,"storageInfo":{"uploadDataLocation":{"bucket":"kaggle-data-sets","path":"1372719/2279067/upload"},"rawDataLocation":{"bucket":"kagglesdsdata","path":"datasets/1372719/2279067"},"individualCompressedLocation":{"bucket":"kaggle-data-sets","path":"1372719/2279067/compressed"},"bundleArchiveLocation":{"bucket":"kaggle-data-sets","path":"1372719/2279067/bundle/archive.zip"},"fileSystemLocation":{"bucket":"kaggle-data-sources","path":"datasets/1372719/2279067/fs/embedded_fs"}},"fileSummaryInfo":{"fileTypes":[{"extension":".csv","fileCount":1,"totalSize":3401}],"sampleFileNames":["WorldPopulation.csv"],"totalFileCount":1},"columnSummaryInfo":{"columnTypes":[{"columnType":"Integer","columnCount":6,"rowCount":420},{"columnType":"Decimal","columnCount":1,"rowCount":70}],"sampleColumnNames":["UrbanPerc","Urban","Density","NetChange","ChangePerc","Population","Year"],"totalColumnCount":7},"externalCopyInfo":null,"originalRemoteUrlInfo":null,"key":"w4hegQp5b06kGlKRAFx2","path":"IjUfVIUJUWKBwHaq91qX/versions/w4hegQp5b06kGlKRAFx2","legacyEntityId":2320194,"relativeUrl":"","name":"Version 1","description":"Initial release"}},"isPrivate":false,"owner":{"id":7044332,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/7044332-kg.png","isOrganization":false,"name":"SANDHYA S","profileUrl":"/sansuthi","slug":"sansuthi","maxFileSizeBytes":null,"userTier":2,"organizationMemberCount":null}});performance && performance.mark && performance.mark("DatasetContainer.componentCouldBootstrap");</script><script nonce="" type="text/x-mathjax-config;executed=true">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+    preferredFont: "TeX",
+    availableFonts: ["STIX", "TeX"],
+    linebreaks: {
+    automatic: true
+    },
+    EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+    inlineMath: [["\\(", "\\)"], ["\\\\(", "\\\\)"]],
+    displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+    processEscapes: true,
+    ignoreClass: "tex2jax_ignore|dno"
+    },
+    TeX: {
+    noUndefined: {
+    attributes: {
+    mathcolor: "red",
+    mathbackground: "#FFEEEE",
+    mathsize: "90%"
+    }
+    }
+    },
+    Macros: {
+    href: "{}"
+    },
+    skipStartupTypeset: true,
+    messageStyle: "none",
+    extensions: [],
+    });
+</script>
+<script type="text/javascript" nonce="">
+  window.addEventListener("DOMContentLoaded", () => {
+    const head = document.getElementsByTagName("head")[0];
+    const useProdHosts = ["www.kaggle.com", "admin.kaggle.com"];
+    const subdomain = useProdHosts.includes(window.location.hostname) ? "www" : "staging";
+
+    const lib = document.createElement("script");
+    lib.type = "text/javascript";
+    lib.src = `https://${subdomain}.kaggleusercontent.com/static/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML`;
+    head.appendChild(lib);
+  });
+</script>
+
+
+</div><div data-testid="dataset-detail-render-tid" class="Dataset_Wrapper--isllmh iCQOLe"><div class="dataset-header-v2__container"><div class="pageheader"><div class="pageheader__container dataset-header-v2"><div id="dataset-header" class="dataset-header-v2__top"><div class="dataset-header-v2__top-image-container"><img src="./World Population by Year _ Kaggle_files/dataset-cover.jpg" class="Header_CoverImg--1431b7d eWPpsZ"></div><div class="pageheader__top--safe" id="pageheader__top--safe--datasets"><div class="Header_UpvoteContainer--p1gj85 iJuJWi"><img src="./World Population by Year _ Kaggle_files/bronzel@2x.png" alt="medal" class="Header_Img--n6ekb0 kMqdHr"><span class="DatasetVoteButton_VoteButtonWrapper--vvhrsz bYfbA"><div class="vote-button__container "><div class="vote-button vote-button--compact vote-button--enabled"><div role="button" class="vote-button__button vote-button__button--up vb-upvote"><span class="fa fa-angle-up"></span></div><div class="vote-button__button vote-button__button--up vote-button__vote-count-container" style="padding: 0px;"><span role="button" class="vote-button__vote-count" style="padding: 10px 16px 12px;">51</span></div><div class="vote-button__button-placeholder"></div></div></div></span></div><div class="dataset-header-v2__classification"><p class="dataset-header-v2__classification-text"><span class="dataset-header-v2__classification-classification"><span class="fa-stack dataset-header-v2__classification-text-icon"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-cube fa-stack-1x"></i></span>&nbsp;  Dataset</span></p></div><div class="dataset-header-v2__info"><h1 class="dataset-header-v2__title">World Population by Year</h1><h2 class="dataset-header-v2__subtitle">Population 1951 - 2020</h2></div><div class="dataset-header-v2__details"><div class="dataset-header-v2__collaborators-wrapper"><a href="https://www.kaggle.com/sansuthi" class="dataset-header-v2__owner-name"><img class="dataset-header-v2__owner-thumbnail" src="./World Population by Year _ Kaggle_files/7044332-kg.png" alt="" role="presentation"><span>SANDHYA S</span></a></div><time datetime="2021-05-28T08:21:49.777Z" title="2021-05-28T08:21:49.777Z"><span><span class="dataset-header-v2__meta-bullet">&nbsp;• &nbsp;</span><span class="Header_ClickableSpan--7anj58 eZHRJc">updated <span title="Fri May 28 2021 09:21:49 GMT+0100 (British Summer Time)">4 months ago</span></span></span></time></div></div></div><div class="sc-ewuHeE hClrEz" style="height: 47px; width: 997px;"><div offset="64" class="sc-gAvNRT gHgTPY"></div><div class="sc-bioDDe lrdm" style="top: 64px; height: 47px; width: 997px; position: fixed; z-index: 999;"><div class="pageheader__bottom pageheader__bottom"><div class="OverflowX_OverflowXWrapper--jgkcy4 bglLBl"><div class="OverflowX_OverflowXBody--1whfcnd iXGPkf"><nav class="pageheader__nav pageheader__nav--dataset "><div class="pageheader__nav-wrapper"><a href="https://www.kaggle.com/sansuthi/world-population-by-year" title="Data" class="pageheader__left-links pageheader__left-links--with-onclick pageheader__left-links--selected" id="pageheader-nav-item--data"><span><span>Data</span></span></a><a href="https://www.kaggle.com/sansuthi/world-population-by-year/tasks" title="Tasks" class="pageheader__left-links pageheader__left-links--with-onclick" id="pageheader-nav-item--tasks"><span><span>Tasks</span><span class="pageheader__link-count">(<span>3</span>)</span></span></a><a href="https://www.kaggle.com/sansuthi/world-population-by-year/code" title="Code" class="pageheader__left-links pageheader__left-links--with-onclick" id="pageheader-nav-item--code"><span><span>Code</span><span class="pageheader__link-count">(<span>19</span>)</span></span></a><a href="https://www.kaggle.com/sansuthi/world-population-by-year/discussion" title="Discussion" class="pageheader__left-links pageheader__left-links--with-onclick" id="pageheader-nav-item--discussion"><span><span>Discussion</span></span></a><a href="https://www.kaggle.com/sansuthi/world-population-by-year/activity" title="Activity" class="pageheader__left-links pageheader__left-links--with-onclick" id="pageheader-nav-item--activity"><span><span>Activity</span></span></a><a href="https://www.kaggle.com/sansuthi/world-population-by-year/metadata" title="Metadata" class="pageheader__left-links pageheader__left-links--with-onclick" id="pageheader-nav-item--metadata"><span><span>Metadata</span></span></a><div class="pageheader__right-links-wrapper"></div></div></nav></div></div><div class="Header_CtaWrapper--1xx24oz hxAXUS"><a href="https://www.kaggle.com/sansuthi/world-population-by-year/download" tabindex="0" data-disable-rapidash="true" class="sc-EZqKI iONckA"><button class="sc-jXcxbT bJrYSm Header_CtaButton--j16wu8 cxvIva" tabindex="-1" role="button"><span class="sc-iklJeh sc-jJMGnK kOwaVM laKGqb">Download (3 kB)</span></button></a><button class="sc-jXcxbT hyxMVk Header_CtaButton--j16wu8 cxvIva" tabindex="0" role="button"><span class="sc-iklJeh sc-jJMGnK kOwaVM laKGqb">New Notebook</span></button><div class="Header_DatasetDropdownWrapper--1u4womr jKWDLk"><div class="sc-aiIEM sc-izMWYr cBIQLd jqjZJG"><div class="sc-bYQMbP hNEjbk"><i sizevalue="20px" class="rmwc-icon google-material-icons sc-gKAaRy iExRbS">more_vert</i></div></div></div></div></div><div></div><div class="pageheader__transition"></div></div></div><div></div></div></div></div><div class="Home_Wrapper--1lm6bf2 iakMUi"><div class="Home_ComponentWrapper--7qy803 errZMZ"><div class="content-box content-box--no-title"><div class="content-box__content-section content-box__content-section--no-title"><div class="content-box__simple-content-box"><div class="content-box__simple-content"><div class="QuickInfo_Wrapper--zf34wg kchrmh"><div class="sc-dAcoHE kOeWMT" data-test="usability-wrapper"><i sizevalue="1.125em" verticalalign="-0.125em" class="rmwc-icon google-material-icons sc-gKAaRy gSZLwU sc-gMaaaA lhuCml">business_center</i><div data-test="text" class="sc-iCoGMd sc-hHEiqL sc-iSjyWt cHRTxu ccTnQh hRqWEl">Usability</div><p data-test="rating" class="sc-fKgJPI sc-bCwfaz sc-kkVqAZ gKhVmc hzzSzX hIgjRg">10.0</p></div><div class="QuickInfo_License--gof2y ccdRkE"><div class="QuickInfo_InfoTitle--4kjp6o kIQEuL"><span name="balance-scale" class="QuickInfo_StyledIcon--1lv8yd btBnlc fa-fw fa fa-balance-scale"></span><div class="QuickInfo_Text--xitcj2 QuickInfo_BoldText--ju87wd iBLCGg hqoQge">License</div></div><a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" class="QuickInfo_A--43d8pb bAnHXR">CC0: Public Domain</a></div><div class="QuickInfo_Tags--b0c3af fsYEzy"><div class="QuickInfo_InfoTitle--4kjp6o kIQEuL"><span name="tag" class="QuickInfo_StyledIcon--1lv8yd btBnlc fa-fw fa fa-tag"></span><div class="QuickInfo_Text--xitcj2 QuickInfo_BoldText--ju87wd iBLCGg hqoQge">Tags</div></div><div class="mdc-menu-surface--anchor"><div class="sc-hhIiOg eBGMfa" data-tip="true" data-for="tooltip_components_a42b8cf0-ee4b-4e9f-8ab4-913c0fd8d7d4" currentitem="false"><a href="https://www.kaggle.com/datasets?tags=11200-Social+Science" rel="noopener" class="SimpleTag_Tag--1m0qa3y fvaSJv">social science</a><div class="__react_component_tooltip tb1d87f17-db53-4483-9777-fd44f71e7f54 place-top type-dark" id="tooltip_components_a42b8cf0-ee4b-4e9f-8ab4-913c0fd8d7d4" data-id="tooltip"><style aria-hidden="true">
+  	.tb1d87f17-db53-4483-9777-fd44f71e7f54 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.tb1d87f17-db53-4483-9777-fd44f71e7f54.place-top {
+        margin-top: -10px;
+    }
+    .tb1d87f17-db53-4483-9777-fd44f71e7f54.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .tb1d87f17-db53-4483-9777-fd44f71e7f54.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .tb1d87f17-db53-4483-9777-fd44f71e7f54.place-bottom {
+        margin-top: 10px;
+    }
+    .tb1d87f17-db53-4483-9777-fd44f71e7f54.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .tb1d87f17-db53-4483-9777-fd44f71e7f54.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .tb1d87f17-db53-4483-9777-fd44f71e7f54.place-left {
+        margin-left: -10px;
+    }
+    .tb1d87f17-db53-4483-9777-fd44f71e7f54.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .tb1d87f17-db53-4483-9777-fd44f71e7f54.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .tb1d87f17-db53-4483-9777-fd44f71e7f54.place-right {
+        margin-left: 10px;
+    }
+    .tb1d87f17-db53-4483-9777-fd44f71e7f54.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .tb1d87f17-db53-4483-9777-fd44f71e7f54.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style><div class="sc-eirqVv gMXsZh"><div class="SimpleTag_CategoryTooltip--193xph jCnEZs"><p class="SimpleTag_CategoryTooltipText--1yo5c7k ifojjb">social science</p><p>subject &gt; people and society &gt; social science</p></div></div></div></div>, <div class="sc-hhIiOg eBGMfa" data-tip="true" data-for="tooltip_components_f515397d-1ee2-496e-b932-313f3da1ba6b" currentitem="false"><a href="https://www.kaggle.com/datasets?tags=14104-Text+Data" rel="noopener" class="SimpleTag_Tag--1m0qa3y fvaSJv">text data</a><div class="__react_component_tooltip t416762fa-6d30-411e-94a7-dea38abad5eb place-top type-dark" id="tooltip_components_f515397d-1ee2-496e-b932-313f3da1ba6b" data-id="tooltip"><style aria-hidden="true">
+  	.t416762fa-6d30-411e-94a7-dea38abad5eb {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t416762fa-6d30-411e-94a7-dea38abad5eb.place-top {
+        margin-top: -10px;
+    }
+    .t416762fa-6d30-411e-94a7-dea38abad5eb.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t416762fa-6d30-411e-94a7-dea38abad5eb.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t416762fa-6d30-411e-94a7-dea38abad5eb.place-bottom {
+        margin-top: 10px;
+    }
+    .t416762fa-6d30-411e-94a7-dea38abad5eb.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t416762fa-6d30-411e-94a7-dea38abad5eb.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t416762fa-6d30-411e-94a7-dea38abad5eb.place-left {
+        margin-left: -10px;
+    }
+    .t416762fa-6d30-411e-94a7-dea38abad5eb.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t416762fa-6d30-411e-94a7-dea38abad5eb.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t416762fa-6d30-411e-94a7-dea38abad5eb.place-right {
+        margin-left: 10px;
+    }
+    .t416762fa-6d30-411e-94a7-dea38abad5eb.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t416762fa-6d30-411e-94a7-dea38abad5eb.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style><div class="sc-eirqVv gMXsZh"><div class="SimpleTag_CategoryTooltip--193xph jCnEZs"><p class="SimpleTag_CategoryTooltipText--1yo5c7k ifojjb">text data</p><p>data type &gt; text data</p></div></div></div></div>, <div class="sc-hhIiOg eBGMfa" data-tip="true" data-for="tooltip_components_057704a2-960b-4da7-aec9-5c74d156c4ba" currentitem="false"><a href="https://www.kaggle.com/datasets?tags=13208-Data+Visualization" rel="noopener" class="SimpleTag_Tag--1m0qa3y fvaSJv">data visualization</a><div class="__react_component_tooltip t4a4d3308-776f-4240-98e4-7e0869f73a5e place-top type-dark" id="tooltip_components_057704a2-960b-4da7-aec9-5c74d156c4ba" data-id="tooltip"><style aria-hidden="true">
+  	.t4a4d3308-776f-4240-98e4-7e0869f73a5e {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t4a4d3308-776f-4240-98e4-7e0869f73a5e.place-top {
+        margin-top: -10px;
+    }
+    .t4a4d3308-776f-4240-98e4-7e0869f73a5e.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t4a4d3308-776f-4240-98e4-7e0869f73a5e.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t4a4d3308-776f-4240-98e4-7e0869f73a5e.place-bottom {
+        margin-top: 10px;
+    }
+    .t4a4d3308-776f-4240-98e4-7e0869f73a5e.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t4a4d3308-776f-4240-98e4-7e0869f73a5e.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t4a4d3308-776f-4240-98e4-7e0869f73a5e.place-left {
+        margin-left: -10px;
+    }
+    .t4a4d3308-776f-4240-98e4-7e0869f73a5e.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t4a4d3308-776f-4240-98e4-7e0869f73a5e.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t4a4d3308-776f-4240-98e4-7e0869f73a5e.place-right {
+        margin-left: 10px;
+    }
+    .t4a4d3308-776f-4240-98e4-7e0869f73a5e.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t4a4d3308-776f-4240-98e4-7e0869f73a5e.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style><div class="sc-eirqVv gMXsZh"><div class="SimpleTag_CategoryTooltip--193xph jCnEZs"><p class="SimpleTag_CategoryTooltipText--1yo5c7k ifojjb">data visualization</p><p>technique &gt; data visualization</p></div></div></div></div>, <div class="sc-hhIiOg eBGMfa" data-tip="true" data-for="tooltip_components_956bd206-ec66-4b18-b37b-6ba045c74e9f" currentitem="false"><a href="https://www.kaggle.com/datasets?tags=13201-Exploratory+Data+Analysis" rel="noopener" class="SimpleTag_Tag--1m0qa3y fvaSJv">exploratory data analysis</a><div class="__react_component_tooltip tdf123808-a079-4c73-9212-4cc4a39f54d0 place-top type-dark" id="tooltip_components_956bd206-ec66-4b18-b37b-6ba045c74e9f" data-id="tooltip"><style aria-hidden="true">
+  	.tdf123808-a079-4c73-9212-4cc4a39f54d0 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.tdf123808-a079-4c73-9212-4cc4a39f54d0.place-top {
+        margin-top: -10px;
+    }
+    .tdf123808-a079-4c73-9212-4cc4a39f54d0.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .tdf123808-a079-4c73-9212-4cc4a39f54d0.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .tdf123808-a079-4c73-9212-4cc4a39f54d0.place-bottom {
+        margin-top: 10px;
+    }
+    .tdf123808-a079-4c73-9212-4cc4a39f54d0.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .tdf123808-a079-4c73-9212-4cc4a39f54d0.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .tdf123808-a079-4c73-9212-4cc4a39f54d0.place-left {
+        margin-left: -10px;
+    }
+    .tdf123808-a079-4c73-9212-4cc4a39f54d0.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .tdf123808-a079-4c73-9212-4cc4a39f54d0.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .tdf123808-a079-4c73-9212-4cc4a39f54d0.place-right {
+        margin-left: 10px;
+    }
+    .tdf123808-a079-4c73-9212-4cc4a39f54d0.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .tdf123808-a079-4c73-9212-4cc4a39f54d0.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style><div class="sc-eirqVv gMXsZh"><div class="SimpleTag_CategoryTooltip--193xph jCnEZs"><p class="SimpleTag_CategoryTooltipText--1yo5c7k ifojjb">exploratory data analysis</p><p>technique &gt; exploratory data analysis</p></div></div></div></div>, <div class="sc-hhIiOg eBGMfa" data-tip="true" data-for="tooltip_components_1dda72f7-4bbc-409b-826b-2db568bd540b" currentitem="false"><a href="https://www.kaggle.com/datasets?tags=8100-People" rel="noopener" class="SimpleTag_Tag--1m0qa3y fvaSJv">people</a><div class="__react_component_tooltip ta8990365-c7ba-422f-90ac-66b181beb343 place-top type-dark" id="tooltip_components_1dda72f7-4bbc-409b-826b-2db568bd540b" data-id="tooltip"><style aria-hidden="true">
+  	.ta8990365-c7ba-422f-90ac-66b181beb343 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.ta8990365-c7ba-422f-90ac-66b181beb343.place-top {
+        margin-top: -10px;
+    }
+    .ta8990365-c7ba-422f-90ac-66b181beb343.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .ta8990365-c7ba-422f-90ac-66b181beb343.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .ta8990365-c7ba-422f-90ac-66b181beb343.place-bottom {
+        margin-top: 10px;
+    }
+    .ta8990365-c7ba-422f-90ac-66b181beb343.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .ta8990365-c7ba-422f-90ac-66b181beb343.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .ta8990365-c7ba-422f-90ac-66b181beb343.place-left {
+        margin-left: -10px;
+    }
+    .ta8990365-c7ba-422f-90ac-66b181beb343.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .ta8990365-c7ba-422f-90ac-66b181beb343.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .ta8990365-c7ba-422f-90ac-66b181beb343.place-right {
+        margin-left: 10px;
+    }
+    .ta8990365-c7ba-422f-90ac-66b181beb343.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .ta8990365-c7ba-422f-90ac-66b181beb343.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style><div class="sc-eirqVv gMXsZh"><div class="SimpleTag_CategoryTooltip--193xph jCnEZs"><p class="SimpleTag_CategoryTooltipText--1yo5c7k ifojjb">people</p><p>subject &gt; people and society &gt; people</p></div></div></div></div> <div aria-hidden="true" class="mdc-menu sc-TtZnY eOpxM sc-gwooxZ dRLjwu mdc-menu-surface"><div role="menu" class="mdc-list mdc-menu__items mdc-list"><div class="sc-hSgPHy whxpA"><div class="sc-bHOPVF cfkbKl"><h6 class="sc-iemWCZ sc-dIvrsQ xasuK biCrYn">Edit Tags</h6></div><button aria-label="close" class="sc-jSFjdj iMZsEG google-material-icons">close</button></div><div class="sc-kfVzxE ipPwkQ"><div class="sc-fUWrcb cjIaqC"><div class="sc-ddHrfe iXVeZw"><div class="sc-eXuyPJ gwOyTS sc-kzXxXt GqtZh"><i sizevalue="24px" class="rmwc-icon google-material-icons sc-gKAaRy iExPwm sc-eWnToP gXXUhs">search</i><input placeholder="Search Tags" aria-label="Search Tags" class="sc-iGkqmO dUkJQj" value=""></div></div><div class="sc-eJmkCl cVEJei" style="min-height: 0px;"></div></div><div class="sc-hIIyaw llmggr"><div class="sc-cawJnQ TdNsw"><span class="sc-hiKfDv sc-gXfVKN efKVvX jKLUHq">Apply up to 5 tags to help Kaggle 
+users find your dataset.</span></div></div></div><div class="sc-gnEkum opMHa"><div class="sc-cvxAMf fnuqaP"><button class="sc-hmvkKb hRZJbw selected has-remove" role="checkbox" aria-checked="true" tabindex="-1"><span class="sc-giAqHp sc-ezzafa iCBwOD dvHFX">Social Science</span><i color="#202124" sizevalue="20px" role="button" tabindex="0" class="rmwc-icon google-material-icons sc-gKAaRy iExRbS sc-iiBnNu dJwqAI">close</i></button><button class="sc-hmvkKb hRZJbw selected has-remove" role="checkbox" aria-checked="true" tabindex="-1"><span class="sc-giAqHp sc-ezzafa iCBwOD dvHFX">Text Data</span><i color="#202124" sizevalue="20px" role="button" tabindex="0" class="rmwc-icon google-material-icons sc-gKAaRy iExRbS sc-iiBnNu dJwqAI">close</i></button><button class="sc-hmvkKb hRZJbw selected has-remove" role="checkbox" aria-checked="true" tabindex="-1"><span class="sc-giAqHp sc-ezzafa iCBwOD dvHFX">Data Visualization</span><i color="#202124" sizevalue="20px" role="button" tabindex="0" class="rmwc-icon google-material-icons sc-gKAaRy iExRbS sc-iiBnNu dJwqAI">close</i></button><button class="sc-hmvkKb hRZJbw selected has-remove" role="checkbox" aria-checked="true" tabindex="-1"><span class="sc-giAqHp sc-ezzafa iCBwOD dvHFX">Exploratory Data Analysis</span><i color="#202124" sizevalue="20px" role="button" tabindex="0" class="rmwc-icon google-material-icons sc-gKAaRy iExRbS sc-iiBnNu dJwqAI">close</i></button><button class="sc-hmvkKb hRZJbw selected has-remove" role="checkbox" aria-checked="true" tabindex="-1"><span class="sc-giAqHp sc-ezzafa iCBwOD dvHFX">People</span><i color="#202124" sizevalue="20px" role="button" tabindex="0" class="rmwc-icon google-material-icons sc-gKAaRy iExRbS sc-iiBnNu dJwqAI">close</i></button></div><button class="sc-jXcxbT iPKBep" tabindex="0" role="button"><span class="sc-iklJeh sc-jJMGnK kOwaVM laKGqb">Apply</span></button></div></div></div></div></div></div></div></div></div></div></div><div class="Home_ComponentWrapper--7qy803 errZMZ"><div class="content-box"><div><div class="content-box__title-bar"><div class="ContentBox_Title--6fbrxj loqRqY" style="line-height: 46px;">Description</div></div></div><div class="content-box__content-section"><div class="Description_ContentWrapper--xv68c4 eJedtB"><div class="Description_Content--wgnpmt PEbFJ"><div class="Description_ContentInner--tnbhho kYAUNE"><div class="markdown-converter__text--rendered"><h3>Variables:</h3>
+<ul>
+<li><strong>Year:</strong> 1951 to 2020</li>
+<li><strong>Population:</strong> World Population</li>
+<li><strong>ChangePerc:</strong> Yearly Change in Percentage</li>
+<li><strong>NetChange</strong>: Total Yearly Change</li>
+<li><strong>Density:</strong> Density in P/Km²    </li>
+<li><strong>Urban:</strong> Urban Population </li>
+<li><strong>UrbanPerc:</strong> Urban Population Percentage</li>
+</ul>
+<p>Source of content: <a rel="noreferrer nofollow" href="http://www.worldometers.info/">www.worldometers.info</a></p></div></div></div><div class="Description_Expand--mobr94 evXolx"><span name="angle-down" class="Description_ExpandIcon--zyxrq0 bvWUpd fa fa-angle-down"></span></div></div></div></div></div><div class="Home_ComponentWrapper--7qy803 errZMZ"><div aria-live="assertive" aria-atomic="true" aria-hidden="true" class="sc-eyjeul jyMVob mdc-snackbar mdc-snackbar--leading"><div class="mdc-snackbar__surface"><div role="status" aria-live="polite" class="mdc-snackbar__label"><div style="display: none;"></div></div><div class="mdc-snackbar__actions"></div></div></div><div class="sc-dlhHgF dvIqTo"><div class="sc-nPvsU jKlfag"><div class="sc-liIFw lmppGf"><div class="sc-iGfasB eZaYlZ"><div class="sc-gHNwII crAJka"><div class="sc-iBsezW kjJDhe"><h6 class="sc-iemWCZ sc-dIvrsQ sc-fGSMOf xasuK biCrYn">Data Explorer</h6><div class="sc-iCoGMd sc-hHEiqL sc-lbIafc jfAfuV ccTnQh kAuQBp">3.4 kB</div></div><ul class="sc-ihiItl csFJBo"><ul class="sc-gfPeNv cCdERM"><div role="button" class="sc-kvxDEs sc-gNEgtR dFsAeS eSxcth"><div class="sc-kLSgde wIDwz"><i sizevalue="18px" class="rmwc-icon google-material-icons sc-gKAaRy iExUpp">calendar_view_week</i></div><div class="sc-dQlUGg fkKZck"><div class="sc-hhIiOg eBGMfa sc-gvEYPt fXxWUV" data-tip="true" data-for="tooltip_components_95f1c63e-6e8a-4364-9862-fc13dc1472d2" currentitem="false" aria-describedby="t53b747d8-5301-45ec-8f92-1cc618e76ee1"><p class="sc-fKgJPI sc-bCwfaz sc-jqeqBk gKhVmc hzzSzX kyxpmc">WorldPopulation.csv</p><div class="__react_component_tooltip t53b747d8-5301-45ec-8f92-1cc618e76ee1 show place-top type-dark" id="tooltip_components_95f1c63e-6e8a-4364-9862-fc13dc1472d2" data-id="tooltip" style="left: 284px; top: 389px;"><style aria-hidden="true">
+  	.t53b747d8-5301-45ec-8f92-1cc618e76ee1 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t53b747d8-5301-45ec-8f92-1cc618e76ee1.place-top {
+        margin-top: -10px;
+    }
+    .t53b747d8-5301-45ec-8f92-1cc618e76ee1.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t53b747d8-5301-45ec-8f92-1cc618e76ee1.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t53b747d8-5301-45ec-8f92-1cc618e76ee1.place-bottom {
+        margin-top: 10px;
+    }
+    .t53b747d8-5301-45ec-8f92-1cc618e76ee1.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t53b747d8-5301-45ec-8f92-1cc618e76ee1.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t53b747d8-5301-45ec-8f92-1cc618e76ee1.place-left {
+        margin-left: -10px;
+    }
+    .t53b747d8-5301-45ec-8f92-1cc618e76ee1.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t53b747d8-5301-45ec-8f92-1cc618e76ee1.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t53b747d8-5301-45ec-8f92-1cc618e76ee1.place-right {
+        margin-left: 10px;
+    }
+    .t53b747d8-5301-45ec-8f92-1cc618e76ee1.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t53b747d8-5301-45ec-8f92-1cc618e76ee1.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style><div class="sc-eirqVv gMXsZh">WorldPopulation.csv (3.4 kB)</div></div></div></div></div></ul></ul></div></div><div class="sc-hBlfyD lpjUFS"><h6 class="sc-iemWCZ sc-dIvrsQ sc-jTFuWk xasuK biCrYn jWgdZs">Summary</h6><div class="sc-bXIzpK hhfZIQ"><div class="sc-kftlYP hgPsjd"><div class="sc-hsOihx dYJGcw"><i color="#5F6368" sizevalue="18px" class="rmwc-icon google-material-icons sc-gKAaRy yTnNO sc-jikcGL jvZKpI">arrow_right</i></div><div class="sc-kLSgde gmHDKH"><i sizevalue="18px" class="rmwc-icon google-material-icons sc-gKAaRy iExUpp">folder</i></div><p class="sc-fKgJPI sc-bCwfaz sc-azpXG bSYwtb hzzSzX gdCvMw">1 file</p></div></div><div class="sc-bXIzpK hhfZIQ"><div class="sc-kftlYP hgPsjd"><div class="sc-hsOihx dYJGcw"><i color="#5F6368" sizevalue="18px" class="rmwc-icon google-material-icons sc-gKAaRy yTnNO sc-jikcGL jvZKpI">arrow_right</i></div><div class="sc-kLSgde gmHDKH"><i sizevalue="18px" class="rmwc-icon google-material-icons sc-gKAaRy iExUpp">calendar_view_week</i></div><p class="sc-fKgJPI sc-bCwfaz sc-azpXG bSYwtb hzzSzX gdCvMw">7 columns</p></div></div></div></div><div class="sc-iLOJZv cXGcms"><div class="sc-fdtKDa dUCpI"><div class="sc-cZblxl beDqPE"><div class="sc-hhIiOg eBGMfa" data-tip="true" data-for="tooltip_components_1b221487-1ef8-4878-b514-df30cda8382c" currentitem="false"><i color="rgba(0,0,0,0.7)" sizevalue="24px" role="button" tabindex="0" class="rmwc-icon google-material-icons sc-gKAaRy gmMscQ sc-eRCfvV HbvAg">chevron_left</i><div class="__react_component_tooltip t338190c0-0115-405c-8a0e-3a81bf040475 place-top type-dark" id="tooltip_components_1b221487-1ef8-4878-b514-df30cda8382c" data-id="tooltip"><style aria-hidden="true">
+  	.t338190c0-0115-405c-8a0e-3a81bf040475 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t338190c0-0115-405c-8a0e-3a81bf040475.place-top {
+        margin-top: -10px;
+    }
+    .t338190c0-0115-405c-8a0e-3a81bf040475.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t338190c0-0115-405c-8a0e-3a81bf040475.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t338190c0-0115-405c-8a0e-3a81bf040475.place-bottom {
+        margin-top: 10px;
+    }
+    .t338190c0-0115-405c-8a0e-3a81bf040475.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t338190c0-0115-405c-8a0e-3a81bf040475.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t338190c0-0115-405c-8a0e-3a81bf040475.place-left {
+        margin-left: -10px;
+    }
+    .t338190c0-0115-405c-8a0e-3a81bf040475.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t338190c0-0115-405c-8a0e-3a81bf040475.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t338190c0-0115-405c-8a0e-3a81bf040475.place-right {
+        margin-left: 10px;
+    }
+    .t338190c0-0115-405c-8a0e-3a81bf040475.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t338190c0-0115-405c-8a0e-3a81bf040475.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style><div class="sc-eirqVv gMXsZh">Hide tree</div></div></div><h5 class="sc-fFSPTT sc-bkbkJK sc-bIZJA gaJJBS eraKfR ilYfCu">WorldPopulation.csv<span class="sc-hZnclM bdWLtT">(3.4 kB)</span></h5><div class="sc-hhIiOg eBGMfa" data-tip="true" data-for="tooltip_components_21e5d62e-1a1d-4b7b-b445-8dfe55c02d5d" currentitem="false"><i color="rgba(0,0,0,0.7)" sizevalue="24px" role="button" tabindex="0" class="rmwc-icon google-material-icons sc-gKAaRy gmMscQ sc-eRCfvV vcIHk">get_app</i><div class="__react_component_tooltip t7526e161-fa98-47bb-9435-9fb1f9f7586f place-top type-dark" id="tooltip_components_21e5d62e-1a1d-4b7b-b445-8dfe55c02d5d" data-id="tooltip"><style aria-hidden="true">
+  	.t7526e161-fa98-47bb-9435-9fb1f9f7586f {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t7526e161-fa98-47bb-9435-9fb1f9f7586f.place-top {
+        margin-top: -10px;
+    }
+    .t7526e161-fa98-47bb-9435-9fb1f9f7586f.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t7526e161-fa98-47bb-9435-9fb1f9f7586f.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t7526e161-fa98-47bb-9435-9fb1f9f7586f.place-bottom {
+        margin-top: 10px;
+    }
+    .t7526e161-fa98-47bb-9435-9fb1f9f7586f.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t7526e161-fa98-47bb-9435-9fb1f9f7586f.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t7526e161-fa98-47bb-9435-9fb1f9f7586f.place-left {
+        margin-left: -10px;
+    }
+    .t7526e161-fa98-47bb-9435-9fb1f9f7586f.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t7526e161-fa98-47bb-9435-9fb1f9f7586f.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t7526e161-fa98-47bb-9435-9fb1f9f7586f.place-right {
+        margin-left: 10px;
+    }
+    .t7526e161-fa98-47bb-9435-9fb1f9f7586f.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t7526e161-fa98-47bb-9435-9fb1f9f7586f.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style><div class="sc-eirqVv gMXsZh">Download</div></div></div><div class="sc-hhIiOg eBGMfa" data-tip="true" data-for="tooltip_components_23752b45-a3c5-4543-ae94-cb7c36bffe53" currentitem="false"><i color="rgba(0,0,0,0.7)" sizevalue="24px" role="button" tabindex="0" class="rmwc-icon google-material-icons sc-gKAaRy gmMscQ sc-eRCfvV vcIHk">fullscreen</i><div class="__react_component_tooltip tfc4014ae-d1c3-43a6-a75e-5c26fb9f51e8 place-top type-dark" id="tooltip_components_23752b45-a3c5-4543-ae94-cb7c36bffe53" data-id="tooltip"><style aria-hidden="true">
+  	.tfc4014ae-d1c3-43a6-a75e-5c26fb9f51e8 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.tfc4014ae-d1c3-43a6-a75e-5c26fb9f51e8.place-top {
+        margin-top: -10px;
+    }
+    .tfc4014ae-d1c3-43a6-a75e-5c26fb9f51e8.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .tfc4014ae-d1c3-43a6-a75e-5c26fb9f51e8.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .tfc4014ae-d1c3-43a6-a75e-5c26fb9f51e8.place-bottom {
+        margin-top: 10px;
+    }
+    .tfc4014ae-d1c3-43a6-a75e-5c26fb9f51e8.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .tfc4014ae-d1c3-43a6-a75e-5c26fb9f51e8.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .tfc4014ae-d1c3-43a6-a75e-5c26fb9f51e8.place-left {
+        margin-left: -10px;
+    }
+    .tfc4014ae-d1c3-43a6-a75e-5c26fb9f51e8.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .tfc4014ae-d1c3-43a6-a75e-5c26fb9f51e8.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .tfc4014ae-d1c3-43a6-a75e-5c26fb9f51e8.place-right {
+        margin-left: 10px;
+    }
+    .tfc4014ae-d1c3-43a6-a75e-5c26fb9f51e8.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .tfc4014ae-d1c3-43a6-a75e-5c26fb9f51e8.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style><div class="sc-eirqVv gMXsZh">Maximize view</div></div></div></div><div class="sc-kSnytn inBRvW"><div class="sc-iYxmqR dGtrYW"><div class="sc-JWQQz kMtUvL"><div class="sc-bfbdqI kkrgkD" role="tablist"><button role="tab" aria-selected="true" class="sc-QBqQR bCRuze"><div class="sc-dsVNUP cBLGJO"><span class="sc-lmgQwP sc-iJCRrE BCNwJ bojiJp">Detail</span><span class="sc-dHvAuG jDa-dJg"></span></div></button><button role="tab" aria-selected="false" class="sc-QBqQR bCRuze"><div class="sc-dsVNUP cBLGJO"><span class="sc-lmgQwP sc-iJCRrE jgNMXa bojiJp">Compact</span></div></button><button role="tab" aria-selected="false" class="sc-QBqQR bCRuze"><div class="sc-dsVNUP cBLGJO"><span class="sc-lmgQwP sc-iJCRrE jgNMXa bojiJp">Column</span></div></button></div></div><div class="sc-cEqVvm eoNnDa"><div class="sc-ekTJqt ksiSiB"><p class="sc-fKgJPI sc-bCwfaz sc-gfnNVg bSYwtb hzzSzX cnAYPl">7 of 7 columns</p><i color="#5F6368" sizevalue="20px" class="rmwc-icon google-material-icons sc-gKAaRy yTqYN">keyboard_arrow_down</i></div></div></div></div><div class="sc-gLWkaI kHuBVj"><div class="sc-dEQshG cIVaHG"><div class="sc-gaTwrY heyIgO"><div class="sc-iCoGMd sc-hHEiqL sc-cTizCh cHRTxu ccTnQh kEbwlL">About this file</div></div><div class="sc-gzPOro sc-dseRBx lgHBSX dqLWik"><div class="markdown-converter__text--rendered"><ul>
+<li><strong>Year:</strong> 1951 to 2020</li>
+<li><strong>Population:</strong> World Population</li>
+<li><strong>ChangePerc:</strong> Yearly Change in Percentage</li>
+<li><strong>NetChange</strong>: Total Yearly Change</li>
+<li><strong>Density:</strong> Density in P/Km²    </li>
+<li><strong>Urban:</strong> Urban Population </li>
+<li><strong>UrbanPerc:</strong> Urban Population Percentage</li>
+</ul></div></div></div><div class="sc-ibFRPP iIjPJL"></div><div class="sc-ibFRPP sc-dfClqY iIjPJL MFCqR"></div><div class="sc-hCrKZh QMpmU"><div class="sc-dElnkR lolhoj"><div class="sc-cnQiiK sc-eduVpU bNvQQa gXrmAJ"><div class="sc-iAkuYd bGiaSq"><i sizevalue="12px" class="rmwc-icon google-material-icons sc-gKAaRy iExQnT">grid_3x3</i><span class="sc-hiKfDv sc-gXfVKN sc-eBZBzK efKVvX jKLUHq fUTsya">Year</span><i color="#5F6368" sizevalue="18px" class="rmwc-icon google-material-icons sc-gKAaRy yTnNO">sort</i></div><p class="sc-iwajpm sc-cxNHIi sc-dglLXQ fipBoe fHUQtx bxYHKz">Year</p></div><div class="sc-cnQiiK sc-eduVpU bNvQQa gXrmAJ"><div class="sc-iAkuYd bGiaSq"><i sizevalue="12px" class="rmwc-icon google-material-icons sc-gKAaRy iExQnT">grid_3x3</i><span class="sc-hiKfDv sc-gXfVKN sc-eBZBzK efKVvX jKLUHq fUTsya">Population</span><i color="#5F6368" sizevalue="18px" class="rmwc-icon google-material-icons sc-gKAaRy yTnNO">sort</i></div><p class="sc-iwajpm sc-cxNHIi sc-dglLXQ fipBoe fHUQtx bxYHKz">Population</p></div><div class="sc-cnQiiK sc-eduVpU bNvQQa gXrmAJ"><div class="sc-iAkuYd bGiaSq"><i sizevalue="12px" class="rmwc-icon google-material-icons sc-gKAaRy iExQnT">grid_3x3</i><span class="sc-hiKfDv sc-gXfVKN sc-eBZBzK efKVvX jKLUHq fUTsya">ChangePerc</span><i color="#5F6368" sizevalue="18px" class="rmwc-icon google-material-icons sc-gKAaRy yTnNO">sort</i></div><p class="sc-iwajpm sc-cxNHIi sc-dglLXQ fipBoe fHUQtx bxYHKz">Change in Percentage</p></div><div class="sc-cnQiiK sc-eduVpU bNvQQa gXrmAJ"><div class="sc-iAkuYd bGiaSq"><i sizevalue="12px" class="rmwc-icon google-material-icons sc-gKAaRy iExQnT">grid_3x3</i><span class="sc-hiKfDv sc-gXfVKN sc-eBZBzK efKVvX jKLUHq fUTsya">NetChange</span><i color="#5F6368" sizevalue="18px" class="rmwc-icon google-material-icons sc-gKAaRy yTnNO">sort</i></div><p class="sc-iwajpm sc-cxNHIi sc-dglLXQ fipBoe fHUQtx bxYHKz">Yearly Change</p></div><div class="sc-cnQiiK sc-eduVpU bNvQQa gXrmAJ"><div class="sc-iAkuYd bGiaSq"><i sizevalue="12px" class="rmwc-icon google-material-icons sc-gKAaRy iExQnT">grid_3x3</i><span class="sc-hiKfDv sc-gXfVKN sc-eBZBzK efKVvX jKLUHq fUTsya">Density</span><i color="#5F6368" sizevalue="18px" class="rmwc-icon google-material-icons sc-gKAaRy yTnNO">sort</i></div><p class="sc-iwajpm sc-cxNHIi sc-dglLXQ fipBoe fHUQtx bxYHKz">in P/Km²</p></div><div class="sc-cnQiiK sc-eduVpU bNvQQa gXrmAJ"><div class="sc-iAkuYd bGiaSq"><i sizevalue="12px" class="rmwc-icon google-material-icons sc-gKAaRy iExQnT">grid_3x3</i><span class="sc-hiKfDv sc-gXfVKN sc-eBZBzK efKVvX jKLUHq fUTsya">Urban</span><i color="#5F6368" sizevalue="18px" class="rmwc-icon google-material-icons sc-gKAaRy yTnNO">sort</i></div><p class="sc-iwajpm sc-cxNHIi sc-dglLXQ fipBoe fHUQtx bxYHKz">Urban Population</p></div><div class="sc-cnQiiK sc-eduVpU bNvQQa gXrmAJ"><div class="sc-iAkuYd bGiaSq"><i sizevalue="12px" class="rmwc-icon google-material-icons sc-gKAaRy iExQnT">grid_3x3</i><span class="sc-hiKfDv sc-gXfVKN sc-eBZBzK efKVvX jKLUHq fUTsya">UrbanPerc</span><i color="#5F6368" sizevalue="18px" class="rmwc-icon google-material-icons sc-gKAaRy yTnNO">sort</i></div><p class="sc-iwajpm sc-cxNHIi sc-dglLXQ fipBoe fHUQtx bxYHKz">Urban Percentage</p></div></div></div><div class="sc-jmuSiG fEpJxT"><button class="sc-jXcxbT bJrYSm sc-xpeoQ iEundq" tabindex="0" role="button"><span class="sc-iklJeh sc-jJMGnK kOwaVM laKGqb">Cancel</span></button><button class="sc-jXcxbT hyxMVk sc-xpeoQ iEundq" tabindex="0" role="button"><span class="sc-iklJeh sc-jJMGnK kOwaVM laKGqb">Save</span></button></div><div class="sc-grVAwP dVBDHK"><div class="sc-dElnkR lolhoj"><div class="sc-cnQiiK sc-kvAURP sc-bIXyUr bNvQQa kpXvbH doUNkR"><div style="height: 70px; width: 100%;"><div id="numeric-chart-IjUfVIUJUWKBwHaq91qX/versions/w4hegQp5b06kGlKRAFx2/files/WorldPopulation.csv/columns/Xd0WVDLaLlzqbFxwoZ0r" class="sc-gJUIbn wUQFN" style="height: 70px; width: 100%;"><div style="position: relative;"><div dir="ltr" style="position: relative; width: 150px; height: 70px;"><div aria-label="A chart." style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"><svg width="150" height="70" aria-label="A chart." style="overflow: hidden;"><defs id="_ABSTRACT_RENDERER_ID_0"><clippath id="_ABSTRACT_RENDERER_ID_1"><rect x="0" y="0" width="150" height="70"></rect></clippath></defs><rect x="0" y="0" width="150" height="70" stroke="none" stroke-width="0" fill="#ffffff"></rect><g><rect x="0" y="0" width="150" height="70" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g clip-path="url(https://www.kaggle.com/sansuthi/world-population-by-year#_ABSTRACT_RENDERER_ID_1)"><g><rect x="0.5" y="1" width="15" height="68" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="15.5" y="1" width="15" height="68" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="30.5" y="1" width="15" height="68" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="45.5" y="1" width="15" height="68" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="60.5" y="1" width="15" height="68" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="75.5" y="1" width="14" height="68" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="89.5" y="1" width="15" height="68" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="104.5" y="1" width="15" height="68" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="119.5" y="1" width="15" height="68" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="134.5" y="1" width="15" height="68" stroke="none" stroke-width="0" fill="#007ba8"></rect></g><g><rect x="0" y="69" width="150" height="1" stroke="none" stroke-width="0" fill="#333333"></rect></g></g><g></g></g><g></g></svg><div aria-label="A tabular representation of the data in the chart." style="position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;"><table><thead><tr><th>Label</th><th>Count</th></tr></thead><tbody><tr><td>1951.00 - 1957.90</td><td>7</td></tr><tr><td>1957.90 - 1964.80</td><td>7</td></tr><tr><td>1964.80 - 1971.70</td><td>7</td></tr><tr><td>1971.70 - 1978.60</td><td>7</td></tr><tr><td>1978.60 - 1985.50</td><td>7</td></tr><tr><td>1985.50 - 1992.40</td><td>7</td></tr><tr><td>1992.40 - 1999.30</td><td>7</td></tr><tr><td>1999.30 - 2006.20</td><td>7</td></tr><tr><td>2006.20 - 2013.10</td><td>7</td></tr><tr><td>2013.10 - 2020.00</td><td>7</td></tr></tbody></table></div></div></div><div aria-hidden="true" style="display: none; position: absolute; top: 80px; left: 160px; white-space: nowrap; font-family: Arial; font-size: 8px;">...</div><div></div></div></div></div><div class="sc-fKcgIC bWMLjU"><div class="sc-kgRGqL sc-jkYZiw gQJuiQ cOWyro">1951</div><div class="sc-kgRGqL sc-jkYZiw sc-cssPrJ gQJuiQ cOWyro cgujhP">2020</div></div></div><div class="sc-cnQiiK sc-kvAURP sc-bIXyUr bNvQQa kpXvbH doUNkR"><div style="height: 70px; width: 100%;"><div id="numeric-chart-IjUfVIUJUWKBwHaq91qX/versions/w4hegQp5b06kGlKRAFx2/files/WorldPopulation.csv/columns/BO9dI4uVnHqicTQNOv8d" class="sc-gJUIbn wUQFN" style="height: 70px; width: 100%;"><div style="position: relative;"><div dir="ltr" style="position: relative; width: 150px; height: 70px;"><div aria-label="A chart." style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"><svg width="150" height="70" aria-label="A chart." style="overflow: hidden;"><defs id="_ABSTRACT_RENDERER_ID_2"><clippath id="_ABSTRACT_RENDERER_ID_3"><rect x="0" y="0" width="150" height="70"></rect></clippath></defs><rect x="0" y="0" width="150" height="70" stroke="none" stroke-width="0" fill="#ffffff"></rect><g><rect x="0" y="0" width="150" height="70" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g clip-path="url(https://www.kaggle.com/sansuthi/world-population-by-year#_ABSTRACT_RENDERER_ID_3)"><g><rect x="0.5" y="1" width="15" height="68" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="15.5" y="20" width="15" height="49" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="30.5" y="32" width="15" height="37" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="45.5" y="26" width="15" height="43" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="60.5" y="32" width="15" height="37" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="75.5" y="32" width="14" height="37" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="89.5" y="26" width="15" height="43" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="104.5" y="32" width="15" height="37" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="119.5" y="32" width="15" height="37" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="134.5" y="26" width="15" height="43" stroke="none" stroke-width="0" fill="#007ba8"></rect></g><g><rect x="0" y="69" width="150" height="1" stroke="none" stroke-width="0" fill="#333333"></rect></g></g><g></g></g><g></g></svg><div aria-label="A tabular representation of the data in the chart." style="position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;"><table><thead><tr><th>Label</th><th>Count</th></tr></thead><tbody><tr><td>2584034261.00 - 3105110708.80</td><td>11</td></tr><tr><td>3105110708.80 - 3626187156.60</td><td>8</td></tr><tr><td>3626187156.60 - 4147263604.40</td><td>6</td></tr><tr><td>4147263604.40 - 4668340052.20</td><td>7</td></tr><tr><td>4668340052.20 - 5189416500.00</td><td>6</td></tr><tr><td>5189416500.00 - 5710492947.80</td><td>6</td></tr><tr><td>5710492947.80 - 6231569395.60</td><td>7</td></tr><tr><td>6231569395.60 - 6752645843.40</td><td>6</td></tr><tr><td>6752645843.40 - 7273722291.20</td><td>6</td></tr><tr><td>7273722291.20 - 7794798739.00</td><td>7</td></tr></tbody></table></div></div></div><div aria-hidden="true" style="display: none; position: absolute; top: 80px; left: 160px; white-space: nowrap; font-family: Arial; font-size: 8px;">...</div><div></div></div></div></div><div class="sc-fKcgIC bWMLjU"><div class="sc-kgRGqL sc-jkYZiw gQJuiQ cOWyro">2.58b</div><div class="sc-kgRGqL sc-jkYZiw sc-cssPrJ gQJuiQ cOWyro cgujhP">7.79b</div></div></div><div class="sc-cnQiiK sc-kvAURP sc-bIXyUr bNvQQa kpXvbH doUNkR"><div style="height: 70px; width: 100%;"><div id="numeric-chart-IjUfVIUJUWKBwHaq91qX/versions/w4hegQp5b06kGlKRAFx2/files/WorldPopulation.csv/columns/A5duvbhQRfcRfKA1j1vi" class="sc-gJUIbn wUQFN" style="height: 70px; width: 100%;"><div style="position: relative;"><div dir="ltr" style="position: relative; width: 150px; height: 70px;"><div aria-label="A chart." style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"><svg width="150" height="70" aria-label="A chart." style="overflow: hidden;"><defs id="_ABSTRACT_RENDERER_ID_4"><clippath id="_ABSTRACT_RENDERER_ID_5"><rect x="0" y="0" width="150" height="70"></rect></clippath></defs><rect x="0" y="0" width="150" height="70" stroke="none" stroke-width="0" fill="#ffffff"></rect><g><rect x="0" y="0" width="150" height="70" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g clip-path="url(https://www.kaggle.com/sansuthi/world-population-by-year#_ABSTRACT_RENDERER_ID_5)"><g><rect x="0.5" y="51" width="15" height="18" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="15.5" y="24" width="15" height="45" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="30.5" y="47" width="15" height="22" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="45.5" y="55" width="15" height="14" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="60.5" y="62" width="15" height="7" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="75.5" y="66" width="14" height="3" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="89.5" y="39" width="15" height="30" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="104.5" y="1" width="15" height="68" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="119.5" y="47" width="15" height="22" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="134.5" y="39" width="15" height="30" stroke="none" stroke-width="0" fill="#007ba8"></rect></g><g><rect x="0" y="69" width="150" height="1" stroke="none" stroke-width="0" fill="#333333"></rect></g></g><g></g></g><g></g></svg><div aria-label="A tabular representation of the data in the chart." style="position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;"><table><thead><tr><th>Label</th><th>Count</th></tr></thead><tbody><tr><td>1.05 - 1.15</td><td>5</td></tr><tr><td>1.15 - 1.26</td><td>12</td></tr><tr><td>1.26 - 1.36</td><td>6</td></tr><tr><td>1.36 - 1.47</td><td>4</td></tr><tr><td>1.47 - 1.57</td><td>2</td></tr><tr><td>1.57 - 1.67</td><td>1</td></tr><tr><td>1.67 - 1.78</td><td>8</td></tr><tr><td>1.78 - 1.88</td><td>18</td></tr><tr><td>1.88 - 1.99</td><td>6</td></tr><tr><td>1.99 - 2.09</td><td>8</td></tr></tbody></table></div></div></div><div aria-hidden="true" style="display: none; position: absolute; top: 80px; left: 160px; white-space: nowrap; font-family: Arial; font-size: 8px;">...</div><div></div></div></div></div><div class="sc-fKcgIC bWMLjU"><div class="sc-kgRGqL sc-jkYZiw gQJuiQ cOWyro">1.05</div><div class="sc-kgRGqL sc-jkYZiw sc-cssPrJ gQJuiQ cOWyro cgujhP">2.09</div></div></div><div class="sc-cnQiiK sc-kvAURP sc-bIXyUr bNvQQa kpXvbH doUNkR"><div style="height: 70px; width: 100%;"><div id="numeric-chart-IjUfVIUJUWKBwHaq91qX/versions/w4hegQp5b06kGlKRAFx2/files/WorldPopulation.csv/columns/l1K4R0Kh7VCszPTNq1Ia" class="sc-gJUIbn wUQFN" style="height: 70px; width: 100%;"><div style="position: relative;"><div dir="ltr" style="position: relative; width: 150px; height: 70px;"><div aria-label="A chart." style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"><svg width="150" height="70" aria-label="A chart." style="overflow: hidden;"><defs id="_ABSTRACT_RENDERER_ID_6"><clippath id="_ABSTRACT_RENDERER_ID_7"><rect x="0" y="0" width="150" height="70"></rect></clippath></defs><rect x="0" y="0" width="150" height="70" stroke="none" stroke-width="0" fill="#ffffff"></rect><g><rect x="0" y="0" width="150" height="70" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g clip-path="url(https://www.kaggle.com/sansuthi/world-population-by-year#_ABSTRACT_RENDERER_ID_7)"><g><rect x="0.5" y="47" width="15" height="22" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="15.5" y="60" width="15" height="9" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="30.5" y="60" width="15" height="9" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="45.5" y="66.87142857142857" width="15" height="2.6285714285714334" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="60.5" y="63" width="15" height="6" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="75.5" y="60" width="14" height="9" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="89.5" y="31" width="15" height="38" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="104.5" y="1" width="15" height="68" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="119.5" y="27" width="15" height="42" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="134.5" y="54" width="15" height="15" stroke="none" stroke-width="0" fill="#007ba8"></rect></g><g><rect x="0" y="69" width="150" height="1" stroke="none" stroke-width="0" fill="#333333"></rect></g></g><g></g></g><g></g></svg><div aria-label="A tabular representation of the data in the chart." style="position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;"><table><thead><tr><th>Label</th><th>Count</th></tr></thead><tbody><tr><td>46747398.00 - 51363044.30</td><td>7</td></tr><tr><td>51363044.30 - 55978690.60</td><td>3</td></tr><tr><td>55978690.60 - 60594336.90</td><td>3</td></tr><tr><td>60594336.90 - 65209983.20</td><td>1</td></tr><tr><td>65209983.20 - 69825629.50</td><td>2</td></tr><tr><td>69825629.50 - 74441275.80</td><td>3</td></tr><tr><td>74441275.80 - 79056922.10</td><td>12</td></tr><tr><td>79056922.10 - 83672568.40</td><td>21</td></tr><tr><td>83672568.40 - 88288214.70</td><td>13</td></tr><tr><td>88288214.70 - 92903861.00</td><td>5</td></tr></tbody></table></div></div></div><div aria-hidden="true" style="display: none; position: absolute; top: 80px; left: 160px; white-space: nowrap; font-family: Arial; font-size: 8px;">...</div><div></div></div></div></div><div class="sc-fKcgIC bWMLjU"><div class="sc-kgRGqL sc-jkYZiw gQJuiQ cOWyro">46.7m</div><div class="sc-kgRGqL sc-jkYZiw sc-cssPrJ gQJuiQ cOWyro cgujhP">92.9m</div></div></div><div class="sc-cnQiiK sc-kvAURP sc-bIXyUr bNvQQa kpXvbH doUNkR"><div style="height: 70px; width: 100%;"><div id="numeric-chart-IjUfVIUJUWKBwHaq91qX/versions/w4hegQp5b06kGlKRAFx2/files/WorldPopulation.csv/columns/8ZlLJnr0mFyylvXPeYut" class="sc-gJUIbn wUQFN" style="height: 70px; width: 100%;"><div style="position: relative;"><div dir="ltr" style="position: relative; width: 150px; height: 70px;"><div aria-label="A chart." style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"><svg width="150" height="70" aria-label="A chart." style="overflow: hidden;"><defs id="_ABSTRACT_RENDERER_ID_8"><clippath id="_ABSTRACT_RENDERER_ID_9"><rect x="0" y="0" width="150" height="70"></rect></clippath></defs><rect x="0" y="0" width="150" height="70" stroke="none" stroke-width="0" fill="#ffffff"></rect><g><rect x="0" y="0" width="150" height="70" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g clip-path="url(https://www.kaggle.com/sansuthi/world-population-by-year#_ABSTRACT_RENDERER_ID_9)"><g><rect x="0.5" y="1" width="15" height="68" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="15.5" y="22" width="15" height="47" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="30.5" y="15" width="15" height="54" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="45.5" y="29" width="15" height="40" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="60.5" y="29" width="15" height="40" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="75.5" y="29" width="14" height="40" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="89.5" y="22" width="15" height="47" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="104.5" y="29" width="15" height="40" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="119.5" y="22" width="15" height="47" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="134.5" y="22" width="15" height="47" stroke="none" stroke-width="0" fill="#007ba8"></rect></g><g><rect x="0" y="69" width="150" height="1" stroke="none" stroke-width="0" fill="#333333"></rect></g></g><g></g></g><g></g></svg><div aria-label="A tabular representation of the data in the chart." style="position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;"><table><thead><tr><th>Label</th><th>Count</th></tr></thead><tbody><tr><td>17.00 - 20.50</td><td>10</td></tr><tr><td>20.50 - 24.00</td><td>7</td></tr><tr><td>24.00 - 27.50</td><td>8</td></tr><tr><td>27.50 - 31.00</td><td>6</td></tr><tr><td>31.00 - 34.50</td><td>6</td></tr><tr><td>34.50 - 38.00</td><td>6</td></tr><tr><td>38.00 - 41.50</td><td>7</td></tr><tr><td>41.50 - 45.00</td><td>6</td></tr><tr><td>45.00 - 48.50</td><td>7</td></tr><tr><td>48.50 - 52.00</td><td>7</td></tr></tbody></table></div></div></div><div aria-hidden="true" style="display: none; position: absolute; top: 80px; left: 160px; white-space: nowrap; font-family: Arial; font-size: 8px;">...</div><div></div></div></div></div><div class="sc-fKcgIC bWMLjU"><div class="sc-kgRGqL sc-jkYZiw gQJuiQ cOWyro">17</div><div class="sc-kgRGqL sc-jkYZiw sc-cssPrJ gQJuiQ cOWyro cgujhP">52</div></div></div><div class="sc-cnQiiK sc-kvAURP sc-bIXyUr bNvQQa kpXvbH doUNkR"><div style="height: 70px; width: 100%;"><div id="numeric-chart-IjUfVIUJUWKBwHaq91qX/versions/w4hegQp5b06kGlKRAFx2/files/WorldPopulation.csv/columns/6z1DQzt8DmvdBrdpbARL" class="sc-gJUIbn wUQFN" style="height: 70px; width: 100%;"><div style="position: relative;"><div dir="ltr" style="position: relative; width: 150px; height: 70px;"><div aria-label="A chart." style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"><svg width="150" height="70" aria-label="A chart." style="overflow: hidden;"><defs id="_ABSTRACT_RENDERER_ID_10"><clippath id="_ABSTRACT_RENDERER_ID_11"><rect x="0" y="0" width="150" height="70"></rect></clippath></defs><rect x="0" y="0" width="150" height="70" stroke="none" stroke-width="0" fill="#ffffff"></rect><g><rect x="0" y="0" width="150" height="70" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g clip-path="url(https://www.kaggle.com/sansuthi/world-population-by-year#_ABSTRACT_RENDERER_ID_11)"><g><rect x="0.5" y="1" width="15" height="68" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="15.5" y="17" width="15" height="52" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="30.5" y="22" width="15" height="47" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="45.5" y="38" width="15" height="31" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="60.5" y="33" width="15" height="36" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="75.5" y="38" width="14" height="31" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="89.5" y="43" width="15" height="26" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="104.5" y="49" width="15" height="20" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="119.5" y="43" width="15" height="26" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="134.5" y="43" width="15" height="26" stroke="none" stroke-width="0" fill="#007ba8"></rect></g><g><rect x="0" y="69" width="150" height="1" stroke="none" stroke-width="0" fill="#333333"></rect></g></g><g></g></g><g></g></svg><div aria-label="A tabular representation of the data in the chart." style="position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;"><table><thead><tr><th>Label</th><th>Count</th></tr></thead><tbody><tr><td>775067697.00 - 1135460321.70</td><td>13</td></tr><tr><td>1135460321.70 - 1495852946.40</td><td>10</td></tr><tr><td>1495852946.40 - 1856245571.10</td><td>9</td></tr><tr><td>1856245571.10 - 2216638195.80</td><td>6</td></tr><tr><td>2216638195.80 - 2577030820.50</td><td>7</td></tr><tr><td>2577030820.50 - 2937423445.20</td><td>6</td></tr><tr><td>2937423445.20 - 3297816069.90</td><td>5</td></tr><tr><td>3297816069.90 - 3658208694.60</td><td>4</td></tr><tr><td>3658208694.60 - 4018601319.30</td><td>5</td></tr><tr><td>4018601319.30 - 4378993944.00</td><td>5</td></tr></tbody></table></div></div></div><div aria-hidden="true" style="display: none; position: absolute; top: 80px; left: 160px; white-space: nowrap; font-family: Arial; font-size: 8px;">...</div><div></div></div></div></div><div class="sc-fKcgIC bWMLjU"><div class="sc-kgRGqL sc-jkYZiw gQJuiQ cOWyro">775m</div><div class="sc-kgRGqL sc-jkYZiw sc-cssPrJ gQJuiQ cOWyro cgujhP">4.38b</div></div></div><div class="sc-cnQiiK sc-kvAURP sc-bIXyUr bNvQQa kpXvbH doUNkR"><div style="height: 70px; width: 100%;"><div id="numeric-chart-IjUfVIUJUWKBwHaq91qX/versions/w4hegQp5b06kGlKRAFx2/files/WorldPopulation.csv/columns/zqW0XTreJGNAX17fTkTM" class="sc-gJUIbn wUQFN" style="height: 70px; width: 100%;"><div style="position: relative;"><div dir="ltr" style="position: relative; width: 150px; height: 70px;"><div aria-label="A chart." style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"><svg width="150" height="70" aria-label="A chart." style="overflow: hidden;"><defs id="_ABSTRACT_RENDERER_ID_12"><clippath id="_ABSTRACT_RENDERER_ID_13"><rect x="0" y="0" width="150" height="70"></rect></clippath></defs><rect x="0" y="0" width="150" height="70" stroke="none" stroke-width="0" fill="#ffffff"></rect><g><rect x="0" y="0" width="150" height="70" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g clip-path="url(https://www.kaggle.com/sansuthi/world-population-by-year#_ABSTRACT_RENDERER_ID_13)"><g><rect x="0.5" y="22" width="15" height="47" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="15.5" y="22" width="15" height="47" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="30.5" y="1" width="15" height="68" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="45.5" y="15" width="15" height="54" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="60.5" y="29" width="15" height="40" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="75.5" y="15" width="14" height="54" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="89.5" y="22" width="15" height="47" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="104.5" y="42" width="15" height="27" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="119.5" y="22" width="15" height="47" stroke="none" stroke-width="0" fill="#007ba8"></rect><rect x="134.5" y="29" width="15" height="40" stroke="none" stroke-width="0" fill="#007ba8"></rect></g><g><rect x="0" y="69" width="150" height="1" stroke="none" stroke-width="0" fill="#333333"></rect></g></g><g></g></g><g></g></svg><div aria-label="A tabular representation of the data in the chart." style="position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;"><table><thead><tr><th>Label</th><th>Count</th></tr></thead><tbody><tr><td>30.00 - 32.60</td><td>7</td></tr><tr><td>32.60 - 35.20</td><td>7</td></tr><tr><td>35.20 - 37.80</td><td>10</td></tr><tr><td>37.80 - 40.40</td><td>8</td></tr><tr><td>40.40 - 43.00</td><td>6</td></tr><tr><td>43.00 - 45.60</td><td>8</td></tr><tr><td>45.60 - 48.20</td><td>7</td></tr><tr><td>48.20 - 50.80</td><td>4</td></tr><tr><td>50.80 - 53.40</td><td>7</td></tr><tr><td>53.40 - 56.00</td><td>6</td></tr></tbody></table></div></div></div><div aria-hidden="true" style="display: none; position: absolute; top: 80px; left: 160px; white-space: nowrap; font-family: Arial; font-size: 8px;">...</div><div></div></div></div></div><div class="sc-fKcgIC bWMLjU"><div class="sc-kgRGqL sc-jkYZiw gQJuiQ cOWyro">30</div><div class="sc-kgRGqL sc-jkYZiw sc-cssPrJ gQJuiQ cOWyro cgujhP">56</div></div></div></div></div><div><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>2020</div><div>7794798739</div><div>1.05</div><div>81330639</div><div>52</div><div>4378993944</div><div>56</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>2019</div><div>7713468100</div><div>1.08</div><div>82377060</div><div>52</div><div>4299438618</div><div>56</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>2018</div><div>7631091040</div><div>1.1</div><div>83232115</div><div>51</div><div>4219817318</div><div>55</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>2017</div><div>7547858925</div><div>1.12</div><div>83836876</div><div>51</div><div>4140188594</div><div>55</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>2016</div><div>7464022049</div><div>1.14</div><div>84224910</div><div>50</div><div>4060652683</div><div>54</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>2015</div><div>7379797139</div><div>1.16</div><div>84506374</div><div>50</div><div>3981497663</div><div>54</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>2014</div><div>7295290765</div><div>1.17</div><div>84708789</div><div>49</div><div>3902831934</div><div>53</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>2013</div><div>7210581976</div><div>1.19</div><div>84753917</div><div>48</div><div>3824990329</div><div>53</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>2012</div><div>7125828059</div><div>1.2</div><div>84633758</div><div>48</div><div>3747842586</div><div>53</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>2011</div><div>7041194301</div><div>1.21</div><div>84370698</div><div>47</div><div>3671423872</div><div>52</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>2010</div><div>6956823603</div><div>1.22</div><div>84056510</div><div>47</div><div>3594868146</div><div>52</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>2009</div><div>6872767093</div><div>1.23</div><div>83678407</div><div>46</div><div>3516830263</div><div>51</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>2008</div><div>6789088686</div><div>1.24</div><div>83142076</div><div>46</div><div>3439719128</div><div>51</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>2007</div><div>6705946610</div><div>1.24</div><div>82428777</div><div>45</div><div>3363609560</div><div>50</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>2006</div><div>6623517833</div><div>1.25</div><div>81610806</div><div>44</div><div>3289446226</div><div>50</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>2005</div><div>6541907027</div><div>1.25</div><div>80747638</div><div>44</div><div>3215905863</div><div>49</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>2004</div><div>6461159389</div><div>1.25</div><div>79974275</div><div>43</div><div>3143044892</div><div>49</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>2003</div><div>6381185114</div><div>1.26</div><div>79411926</div><div>43</div><div>3071743997</div><div>48</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>2002</div><div>6301773188</div><div>1.27</div><div>79146582</div><div>42</div><div>3001808223</div><div>48</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>2001</div><div>6222626606</div><div>1.29</div><div>79132783</div><div>42</div><div>2933078510</div><div>47</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>2000</div><div>6143493823</div><div>1.31</div><div>79254768</div><div>41</div><div>2868307513</div><div>47</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>1999</div><div>6064239055</div><div>1.33</div><div>79445113</div><div>41</div><div>2808231655</div><div>46</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>1998</div><div>5984793942</div><div>1.35</div><div>79748154</div><div>40</div><div>2749213598</div><div>46</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>1997</div><div>5905045788</div><div>1.38</div><div>80153837</div><div>40</div><div>2690813541</div><div>46</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>1996</div><div>5824891951</div><div>1.4</div><div>80678972</div><div>39</div><div>2632941583</div><div>45</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>1995</div><div>5744212979</div><div>1.43</div><div>81062552</div><div>39</div><div>2575505235</div><div>45</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>1994</div><div>5663150427</div><div>1.46</div><div>81552881</div><div>38</div><div>2518254111</div><div>44</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>1993</div><div>5581597546</div><div>1.5</div><div>82677737</div><div>37</div><div>2461223528</div><div>44</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>1992</div><div>5498919809</div><div>1.56</div><div>84630365</div><div>37</div><div>2404337297</div><div>44</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>1991</div><div>5414289444</div><div>1.63</div><div>87058383</div><div>36</div><div>2347462336</div><div>43</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>1990</div><div>5327231061</div><div>1.71</div><div>89789503</div><div>36</div><div>2290228096</div><div>43</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>1989</div><div>5237441558</div><div>1.79</div><div>92015550</div><div>35</div><div>2233140502</div><div>43</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>1988</div><div>5145426008</div><div>1.84</div><div>92903861</div><div>35</div><div>2176126537</div><div>42</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>1987</div><div>5052522147</div><div>1.85</div><div>91954235</div><div>34</div><div>2118882551</div><div>42</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>1986</div><div>4960567912</div><div>1.84</div><div>89646172</div><div>33</div><div>2062604394</div><div>42</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>1985</div><div>4870921740</div><div>1.82</div><div>86910119</div><div>33</div><div>2007939063</div><div>41</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>1984</div><div>4784011621</div><div>1.8</div><div>84442317</div><div>32</div><div>1955106433</div><div>41</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>1983</div><div>4699569304</div><div>1.78</div><div>82182762</div><div>32</div><div>1903822436</div><div>41</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>1982</div><div>4617386542</div><div>1.77</div><div>80389780</div><div>31</div><div>1854134229</div><div>40</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>1981</div><div>4536996762</div><div>1.77</div><div>78993248</div><div>30</div><div>1804215203</div><div>40</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>1980</div><div>4458003514</div><div>1.77</div><div>77497414</div><div>30</div><div>1754201029</div><div>39</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>1979</div><div>4380506100</div><div>1.76</div><div>75972599</div><div>29</div><div>1706021638</div><div>39</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>1978</div><div>4304533501</div><div>1.77</div><div>75027441</div><div>29</div><div>1659306117</div><div>39</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>1977</div><div>4229506060</div><div>1.8</div><div>74839196</div><div>28</div><div>1616419308</div><div>38</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>1976</div><div>4154666864</div><div>1.84</div><div>75186258</div><div>28</div><div>1577376141</div><div>38</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>1975</div><div>4079480606</div><div>1.89</div><div>75686434</div><div>27</div><div>1538624994</div><div>38</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>1974</div><div>4003794172</div><div>1.94</div><div>76013934</div><div>27</div><div>1501134655</div><div>37</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>1973</div><div>3927780238</div><div>1.98</div><div>76129993</div><div>26</div><div>1462178370</div><div>37</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>1972</div><div>3851650245</div><div>2.01</div><div>75890628</div><div>26</div><div>1424734781</div><div>37</div></div></span><span class="sc-jcwpoC sc-carFqZ eEyhwr hBWCUB"><div class="sc-dElnkR sc-dYNnGZ lolhoj jFfvVv"><div>1971</div><div>3775759617</div><div>2.04</div><div>75322571</div><div>25</div><div>1388834099</div><div>37</div></div></span></div></div></div></div></div></div></div><div class="content-box content-box--no-title"><div class="content-box__content-section content-box__content-section--no-title"><div class="content-box__simple-content-box"><div class="content-box__simple-content"><div class="Footer_Wrapper--1fi89lh cjVLhL"><ul class="horizontal-list"><li class="horizontal-list-item horizontal-list-item--bullet horizontal-list-item--default"><span>7,422 views</span></li><li class="horizontal-list-item horizontal-list-item--bullet horizontal-list-item--default"><span>2,323 downloads</span></li><li class="horizontal-list-item horizontal-list-item--bullet horizontal-list-item--default"><span>19 notebooks</span></li><li class="horizontal-list-item horizontal-list-item--bullet horizontal-list-item--default"><span>0 topics</span></li></ul><div class="Footer_MoreActivity--9bjxpl eQAZhi">View more activity</div></div></div></div></div></div><div role="alertdialog" aria-modal="true" class="sc-fyGvY jkAmeE mdc-dialog"><div class="mdc-dialog__container"><div class="mdc-dialog__surface"><div class="sc-ePZAhl fkSyGK"><button aria-label="close" class="sc-jSFjdj iMZsEG sc-hFFCpj cdJgeV google-material-icons">close</button><div class="sc-kNnZrs OLfyU"><div class="sc-lcvaEy daoWKO"><div _size="xlarge" class="rmwc-circular-progress rmwc-circular-progress--size-xlarge rmwc-circular-progress--indeterminate rmwc-circular-progress--thickerstroke"><svg class="rmwc-circular-progress__circle" viewBox="0 0 48 48"><circle class="rmwc-circular-progress__path" cx="24" cy="24" r="20"></circle></svg></div></div></div></div></div></div><div class="mdc-dialog__scrim"></div></div></div></div><div id="nav-footer" class="sc-ktvWjP dFNbLo"></div></div><div class="sc-kHVIJG jOSokh"></div><div aria-live="assertive" aria-atomic="true" aria-hidden="true" class="sc-eyjeul jyMVob mdc-snackbar mdc-snackbar--leading"><div class="mdc-snackbar__surface"><div role="status" aria-live="polite" class="mdc-snackbar__label"><div style="display: none;"></div></div><div class="mdc-snackbar__actions"></div></div></div></div></div>
+<div data-component-name="NavigationContainer" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"navigationType":"BOTH_NAV"});performance && performance.mark && performance.mark("NavigationContainer.componentCouldBootstrap");</script>
+<div id="site-body" class="hide">
+    
+
+
+<div data-component-name="DatasetContainer" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"discussion":{"canDownvote":false,"dataUrl":"/forums/1391868/topics.json","id":1391868,"showSubscribeButton":false,"isSubscribed":false,"subscription":"unsubscribe","paramValues":{"category":"all","page":1,"search":null,"group":"all","sortBy":"hot"}},"currentTab":"home","newTopic":{"allowAttachments":false,"authorRanking":null,"authorTier":"novice","authorType":"topic","forumId":1391868,"parentName":"World Population by Year","parentUrl":"/sansuthi/world-population-by-year/discussion","isPrivate":false},"categories":{"tags":[{"id":11200,"name":"social science","fullPath":"subject \u003e people and society \u003e social science","listingUrl":"/datasets?group=public\u0026tagids=11200","description":"Social science is the collection of disciplines studying how humans interact with each other.","datasetCount":2628,"competitionCount":0,"notebookCount":568,"tagUrl":"/tags/social-sciences","displayName":"Social Science","fontAwesomeIcon":""},{"id":14104,"name":"text data","fullPath":"data type \u003e text data","listingUrl":"/datasets?group=public\u0026tagids=14104","description":null,"datasetCount":1785,"competitionCount":39,"notebookCount":2000,"tagUrl":"/tags/text-data","displayName":"Text Data","fontAwesomeIcon":""},{"id":13208,"name":"data visualization","fullPath":"technique \u003e data visualization","listingUrl":"/datasets?group=public\u0026tagids=13208","description":"The art of depicting data in a visual format. Using charts and graphs, it is easier to observe patterns, relationships, and outliers.","datasetCount":1259,"competitionCount":0,"notebookCount":21639,"tagUrl":"/tags/data-visualization","displayName":"Data Visualization","fontAwesomeIcon":""},{"id":13201,"name":"exploratory data analysis","fullPath":"technique \u003e exploratory data analysis","listingUrl":"/datasets?group=public\u0026tagids=13201","description":null,"datasetCount":1011,"competitionCount":0,"notebookCount":18426,"tagUrl":"/tags/eda","displayName":"Exploratory Data Analysis","fontAwesomeIcon":""},{"id":8100,"name":"people","fullPath":"subject \u003e people and society \u003e people","listingUrl":"/datasets?group=public\u0026tagids=8100","description":"This tag is for collections of information about, you guessed it, people.","datasetCount":152,"competitionCount":2,"notebookCount":30,"tagUrl":"/tags/people","displayName":"People","fontAwesomeIcon":""}],"type":"dataset"},"upvoteSuggestion":{"voteCount":51,"medalVoteCount":18,"upVoters":[{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/769452-kg.jpg","displayName":"Gabriel Preda","profileUrl":"/gpreda","tier":"Grandmaster","tierInt":4,"userId":769452,"userName":"gpreda"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/3012786-kg.JPG","displayName":"Marília Prata","profileUrl":"/mpwolke","tier":"Master","tierInt":3,"userId":3012786,"userName":"mpwolke"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2681031-kg.jpg","displayName":"Brenda N","profileUrl":"/brendan45774","tier":"Master","tierInt":3,"userId":2681031,"userName":"brendan45774"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/6096594-kg.jpg","displayName":"Anandhu H","profileUrl":"/anandhuh","tier":"Master","tierInt":3,"userId":6096594,"userName":"anandhuh"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/4429509-kg.jpg","displayName":"Sohom Majumder","profileUrl":"/sohommajumder21","tier":"Master","tierInt":3,"userId":4429509,"userName":"sohommajumder21"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/5866221-kg.jpg","displayName":"FunkyMonk","profileUrl":"/creepycrap","tier":"Expert","tierInt":2,"userId":5866221,"userName":"creepycrap"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/6396210-kg.jpg","displayName":"YashSharma","profileUrl":"/yashsharmabharatpur","tier":"Expert","tierInt":2,"userId":6396210,"userName":"yashsharmabharatpur"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/7274535-kg.jpg","displayName":"PavelBiz","profileUrl":"/pavelbiz","tier":"Expert","tierInt":2,"userId":7274535,"userName":"pavelbiz"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/7049767-kg.jpg","displayName":"Mehul Patole","profileUrl":"/mehulpatole31","tier":"Expert","tierInt":2,"userId":7049767,"userName":"mehulpatole31"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"TARIQUE RIZWAN","profileUrl":"/tariquerizwaan","tier":"Contributor","tierInt":1,"userId":7650203,"userName":"tariquerizwaan"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"anand12","profileUrl":"/anandhu98","tier":"Contributor","tierInt":1,"userId":7587252,"userName":"anandhu98"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/7859950-kg.jpg","displayName":"Godfrey Ovie Gimoh","profileUrl":"/godfreyoviegimoh","tier":"Contributor","tierInt":1,"userId":7859950,"userName":"godfreyoviegimoh"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Vedant Korhale","profileUrl":"/vedantkorhale","tier":"Contributor","tierInt":1,"userId":7812269,"userName":"vedantkorhale"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/7800601-kg.jpg","displayName":"shivam shukla","profileUrl":"/shivamshukla19","tier":"Contributor","tierInt":1,"userId":7800601,"userName":"shivamshukla19"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"vignesh s","profileUrl":"/vigneshs1","tier":"Contributor","tierInt":1,"userId":7754280,"userName":"vigneshs1"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Advait Vagerwal","profileUrl":"/advaitvagerwal","tier":"Contributor","tierInt":1,"userId":7429660,"userName":"advaitvagerwal"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"KSurendra","profileUrl":"/surendra01","tier":"Contributor","tierInt":1,"userId":3035274,"userName":"surendra01"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2329707-kg.JPG","displayName":"mbmlearner","profileUrl":"/mbmlearner","tier":"Contributor","tierInt":1,"userId":2329707,"userName":"mbmlearner"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/874716-gp.jpg","displayName":"MasixoleNondumo","profileUrl":"/maxmilliannondumo","tier":"Novice","tierInt":0,"userId":874716,"userName":"maxmilliannondumo"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Austin Glendinning","profileUrl":"/austinglendinning","tier":"Novice","tierInt":0,"userId":5712238,"userName":"austinglendinning"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/5999928-kg.jpeg","displayName":"kamran_hccp","profileUrl":"/kamranhccp","tier":"Novice","tierInt":0,"userId":5999928,"userName":"kamranhccp"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"anand b","profileUrl":"/anandbml","tier":"Novice","tierInt":0,"userId":7736219,"userName":"anandbml"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Dolev Shaked","profileUrl":"/dolevshaked","tier":"Novice","tierInt":0,"userId":7732533,"userName":"dolevshaked"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Miss Miscalculation","profileUrl":"/missmiscalculation","tier":"Novice","tierInt":0,"userId":7681782,"userName":"missmiscalculation"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Richie Ritz","profileUrl":"/richieritz","tier":"Novice","tierInt":0,"userId":7676616,"userName":"richieritz"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Javier David","profileUrl":"/javierdavid","tier":"Novice","tierInt":0,"userId":7656730,"userName":"javierdavid"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Alejandro Ruiz Correa","profileUrl":"/alejandroruizcorrea","tier":"Novice","tierInt":0,"userId":7654874,"userName":"alejandroruizcorrea"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"John Mohan","profileUrl":"/johnnyboy01","tier":"Novice","tierInt":0,"userId":7787268,"userName":"johnnyboy01"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"CARLOS ANDRES PARRA VERA","profileUrl":"/carlos16061999","tier":"Novice","tierInt":0,"userId":7784353,"userName":"carlos16061999"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Ayodeji Okegbenle","profileUrl":"/ayodejiokegbenle","tier":"Novice","tierInt":0,"userId":7768256,"userName":"ayodejiokegbenle"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Javier Miro","profileUrl":"/javiermiro","tier":"Novice","tierInt":0,"userId":8086655,"userName":"javiermiro"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Olumide Olakolu","profileUrl":"/olumideolakolu","tier":"Novice","tierInt":0,"userId":8079476,"userName":"olumideolakolu"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Quoc Nguyen Hung","profileUrl":"/quocnguyenhung","tier":"Novice","tierInt":0,"userId":8012623,"userName":"quocnguyenhung"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"V V Satyanarayana Nallam","profileUrl":"/cnvvsnarayana87","tier":"Novice","tierInt":0,"userId":7986196,"userName":"cnvvsnarayana87"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Jakub Gla","profileUrl":"/jakubgla","tier":"Novice","tierInt":0,"userId":7984582,"userName":"jakubgla"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Armanpreet kaur176","profileUrl":"/armanpreetkaur176","tier":"Novice","tierInt":0,"userId":7936141,"userName":"armanpreetkaur176"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Magma Boony","profileUrl":"/magmaboony","tier":"Novice","tierInt":0,"userId":7920656,"userName":"magmaboony"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Jung_7224","profileUrl":"/jung7224","tier":"Novice","tierInt":0,"userId":7918951,"userName":"jung7224"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"chennk","profileUrl":"/chennk","tier":"Novice","tierInt":0,"userId":7582697,"userName":"chennk"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"GEOVANI ALMARAZ","profileUrl":"/geovanialmaraz","tier":"Novice","tierInt":0,"userId":7563245,"userName":"geovanialmaraz"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Hemalatha Pajaniraja","profileUrl":"/hemalathapajaniraja","tier":"Novice","tierInt":0,"userId":7530700,"userName":"hemalathapajaniraja"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/7530071-kg.JPG","displayName":"Soumen","profileUrl":"/kagglesoumen","tier":"Novice","tierInt":0,"userId":7530071,"userName":"kagglesoumen"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Joseph453","profileUrl":"/joseph453","tier":"Novice","tierInt":0,"userId":7527363,"userName":"joseph453"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Ludolfo Montero","profileUrl":"/ludolfomontero","tier":"Novice","tierInt":0,"userId":7503450,"userName":"ludolfomontero"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Fajar Harva","profileUrl":"/fajarharva","tier":"Novice","tierInt":0,"userId":7495478,"userName":"fajarharva"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"bobkowski","profileUrl":"/bobkowski","tier":"Novice","tierInt":0,"userId":7626045,"userName":"bobkowski"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Tech Universe","profileUrl":"/techuniverse","tier":"Novice","tierInt":0,"userId":7592890,"userName":"techuniverse"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Cường Lê 99","profileUrl":"/cngl99","tier":"Novice","tierInt":0,"userId":7592777,"userName":"cngl99"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Dennis Burkhard","profileUrl":"/dennisburkhard","tier":"Novice","tierInt":0,"userId":7589789,"userName":"dennisburkhard"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/6832826-kg.jpg","displayName":"Kapil Shukla","profileUrl":"/kapirishi","tier":"Novice","tierInt":0,"userId":6832826,"userName":"kapirishi"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Eric Burnham","profileUrl":"/ericburnham","tier":"Novice","tierInt":0,"userId":7066914,"userName":"ericburnham"}]},"readerGroupId":null,"writerGroupId":null,"collaborators":{"owner":{"isUser":true,"isGroup":false,"userId":7044332,"groupId":null,"groupMemberCount":null,"profileUrl":"/sansuthi","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/7044332-kg.png","name":"SANDHYA S","slug":"sansuthi","userTier":2,"joinDate":null,"type":"owner"},"collaborators":[]},"isCollaborator":false,"deletionNeedsReview":false,"hasDatasetDoiApproved":false,"canSeeConfigAsCode":true,"canCreateDatasetTasks":true,"blockTaskCreation":false,"canSeeDatasetHashLink":true,"medalUrl":"/static/images/medals/datasets/bronzel@2x.png","datasetHashLink":null,"datasetId":1372719,"isRemoved":false,"isVersionRemoved":false,"isFeatured":false,"isSuperFeatured":false,"scheduledToBeFeatured":null,"scheduledToBeUnFeatured":null,"scheduledToBeSuperFeatured":null,"scheduledToBeUnSuperFeatured":null,"datasetVersionId":2279067,"datasetVersionNumber":1,"lastVersionNumber":1,"datasetUrl":"/sansuthi/world-population-by-year","datasetExternalUrl":"https://kaggle.com/sansuthi/world-population-by-year","originalImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/1372719/2279067/bec4e0bf13ebd079f53af54c6eeba2e7/data-original.jpg?t=2021-06-15-13-41-44","coverImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/1372719/2279067/bec4e0bf13ebd079f53af54c6eeba2e7/dataset-cover.jpg?t=2021-06-15-13-41-44","cardImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/1372719/2279067/bec4e0bf13ebd079f53af54c6eeba2e7/dataset-card.jpg?t=2021-06-15-13-41-44","thumbnailImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/1372719/2279067/bec4e0bf13ebd079f53af54c6eeba2e7/dataset-thumbnail.jpg?t=2021-06-15-13-41-44","license":{"id":1,"name":"CC0: Public Domain","description":"CC0: Public Domain \u003ca href=\u0022https://creativecommons.org/publicdomain/zero/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/publicdomain/zero/1.0/","displaySequence":null},"voteCount":51,"creatorUserId":7044332,"creatorDisplayName":"SANDHYA S","ownerTwitter":null,"lastUpdated":"2021-05-28T08:21:49.777Z","downloadUrl":"/sansuthi/world-population-by-year/download","newNotebookUrl":"code/scripts/new?datasetVersionId=2279067","newScriptUrl":"code/scripts/new?datasetVersionId=2279067","hasAlreadyVotedUp":false,"isOldDatasetVersion":false,"numberOfViews":7422,"numberOfDownloads":2323,"numberOfScripts":19,"numberOfTopics":0,"numberOfTasks":3,"canEdit":false,"canPerformOwnerTasks":false,"canEditSlug":false,"canEditPublishStatus":false,"canEditFeatureStatus":false,"canEditDescription":false,"hideVersionStatuses":true,"cardImageLeft":749,"cardImageTop":300,"cardImageWidth":630,"cardImageHeight":630,"coverImageLeft":90,"coverImageTop":197,"coverImageWidth":1676,"coverImageHeight":844,"datasetVersions":[{"id":2279067,"slug":"world-population-by-year","name":"World Population by Year","creationDate":"2021-05-28T08:21:49.777Z","versionNumber":1,"versionNotes":"Initial release","thumbnailImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/1372719/2279067/bec4e0bf13ebd079f53af54c6eeba2e7/dataset-thumbnail.jpg?t=2021-06-15-13-41-44","datasetVersionUrl":"/sansuthi/world-population-by-year/version/1","status":"ready","userMessage":null,"isRemoved":false,"creator":{"id":7044332,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/7044332-kg.png","isOrganization":false,"name":"SANDHYA S","profileUrl":"/sansuthi","slug":"sansuthi","maxFileSizeBytes":null,"userTier":null,"organizationMemberCount":null},"userSpecifiedSources":"www.worldometers.info/world-population/world-population-by-year/","doi":null,"databundleVersionId":2320194}],"datasetVersionTotalCount":1,"feed":[],"topicId":null,"isNewTopic":false,"canSeeDeletionButton":false,"checklistDismissed":false,"type":"fileset","diffType":"unversioned","checklistCollapsed":false,"isInFlight":false,"maintainerOrganization":null,"createdByKernel":null,"usabilityRating":{"score":1.0,"columnDescriptionScore":1.0,"coverImageScore":1.0,"fileDescriptionScore":1.0,"fileFormatScore":1.0,"licenseScore":1.0,"overviewScore":1.0,"provenanceScore":1.0,"publicKernelScore":1.0,"subtitleScore":1.0,"tagScore":1.0,"updateFrequencyScore":1.0},"bookmarked":false,"licenseGroups":[{"id":1,"name":"Creative Commons","licenses":[{"id":1,"name":"CC0: Public Domain","description":"CC0: Public Domain \u003ca href=\u0022https://creativecommons.org/publicdomain/zero/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/publicdomain/zero/1.0/","displaySequence":1},{"id":3,"name":"CC BY-NC-SA 4.0","description":"CC BY-NC-SA 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-nc-sa/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nc-sa/4.0/","displaySequence":2},{"id":8,"name":"CC BY-SA 4.0","description":"CC BY-SA 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-sa/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-sa/4.0/","displaySequence":3},{"id":10,"name":"CC BY-SA 3.0","description":"CC BY-SA 3.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-sa/3.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-sa/3.0/","displaySequence":4},{"id":13,"name":"Attribution 4.0 International (CC BY 4.0)","description":"CC-BY 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by/4.0/","displaySequence":5},{"id":14,"name":"Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)","description":"CC-BY-NC 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-nc/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nc/4.0/","displaySequence":6},{"id":16,"name":"Attribution 3.0 Unported (CC BY 3.0)","description":"CC BY 3.0 \u003ca href=\u0022https://creativecommons.org/licenses/by/3.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by/3.0/","displaySequence":7},{"id":17,"name":"Attribution 3.0 IGO (CC BY 3.0 IGO)","description":"CC BY 3.0 IGO \u003ca href=\u0022https://creativecommons.org/licenses/by/3.0/igo/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by/3.0/igo/","displaySequence":8},{"id":19,"name":"Attribution-NonCommercial-ShareAlike 3.0 IGO (CC BY-NC-SA 3.0 IGO)","description":"CC BY-NC-SA 3.0 IGO \u003ca href=\u0022https://creativecommons.org/licenses/by-nc-sa/3.0/igo/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nc-sa/3.0/igo/","displaySequence":9},{"id":22,"name":"Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)","description":"CC BY-ND 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-nd/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nd/4.0/","displaySequence":10},{"id":23,"name":"Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)","description":"CC BY-NC-ND 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-nc-nd/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nc-nd/4.0/","displaySequence":11}],"displaySequence":1},{"id":2,"name":"GPL","licenses":[{"id":9,"name":"GPL 2","description":"GPL 2 \u003ca href=\u0022http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html","displaySequence":1},{"id":25,"name":"GNU Lesser General Public License 3.0","description":"LGPL 3.0 \u003ca href=\u0022http://www.gnu.org/licenses/lgpl-3.0.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://www.gnu.org/licenses/lgpl-3.0.html","displaySequence":2},{"id":26,"name":"GNU Affero General Public License 3.0","description":"AGPL 3.0 \u003ca href=\u0022http://www.gnu.org/licenses/agpl-3.0.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://www.gnu.org/licenses/agpl-3.0.html","displaySequence":3},{"id":27,"name":"GNU Free Documentation License 1.3","description":"FDL 1.3 \u003ca href=\u0022http://www.gnu.org/licenses/fdl-1.3.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://www.gnu.org/licenses/fdl-1.3.html","displaySequence":4}],"displaySequence":2},{"id":3,"name":"Open Data Commons","licenses":[{"id":5,"name":"Database: Open Database, Contents: Database Contents","description":"Database: Open Database \u003ca href=\u0022http://opendatacommons.org/licenses/odbl/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e, Contents: Database Contents \u003ca href=\u0022http://opendatacommons.org/licenses/dbcl/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://opendatacommons.org/licenses/dbcl/1.0/","displaySequence":1},{"id":6,"name":"Database: Open Database, Contents: © Original Authors","description":"Database: Open Database \u003ca href=\u0022http://opendatacommons.org/licenses/odbl/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e, Contents: © Original Authors","url":"http://opendatacommons.org/licenses/odbl/1.0/","displaySequence":2},{"id":15,"name":"ODC Public Domain Dedication and Licence (PDDL)","description":"PDDL  \u003ca href=\u0022https://opendatacommons.org/licenses/pddl/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://opendatacommons.org/licenses/pddl/1.0/","displaySequence":3},{"id":24,"name":"ODC Attribution License (ODC-By)","description":"ODC-BY 1.0 \u003ca href=\u0022https://opendatacommons.org/licenses/by/1-0/index.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://opendatacommons.org/licenses/by/1-0/index.html","displaySequence":4}],"displaySequence":3},{"id":6,"name":"Community Data License","licenses":[{"id":20,"name":"Community Data License Agreement - Permissive - Version 1.0","description":"CDLA Permissive 1.0 \u003ca href=\u0022https://cdla.io/permissive-1-0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://cdla.io/permissive-1-0/","displaySequence":1},{"id":21,"name":"Community Data License Agreement - Sharing - Version 1.0","description":"CDLA Sharing 1.0 \u003ca href=\u0022https://cdla.io/sharing-1-0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://cdla.io/sharing-1-0/","displaySequence":2}],"displaySequence":4},{"id":4,"name":"Special","licenses":[{"id":7,"name":"World Bank Dataset Terms of Use","description":"World Bank Dataset Terms of Use \u003ca href=\u0022https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets","displaySequence":1},{"id":2,"name":"Reddit API Terms","description":"Reddit API Terms \u003ca href=\u0022https://www.reddit.com/wiki/api\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://www.reddit.com/wiki/api","displaySequence":2},{"id":18,"name":"U.S. Government Works","description":"U.S. Government Works \u003ca href=\u0022https://www.usa.gov/government-works/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://www.usa.gov/government-works/","displaySequence":3},{"id":28,"name":"EU ODP Legal Notice","description":"EU ODP Legal Notice \u003ca href=\u0022https://ec.europa.eu/info/legal-notice_en\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://ec.europa.eu/info/legal-notice_en","displaySequence":4}],"displaySequence":5},{"id":5,"name":"Other","licenses":[{"id":11,"name":"Data files © Original Authors","description":"Data files © Original Authors","url":null,"displaySequence":1},{"id":12,"name":"Other (specified in description)","description":"Other (specified in description)","url":null,"displaySequence":2},{"id":4,"name":"Unknown","description":"Unknown","url":null,"displaySequence":3}],"displaySequence":6}],"owners":[{"id":0,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/","isOrganization":false,"name":"","profileUrl":"/","slug":"","maxFileSizeBytes":null,"userTier":null,"organizationMemberCount":null},{"id":7044332,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/7044332-kg.png","isOrganization":false,"name":"SANDHYA S","profileUrl":"/sansuthi","slug":"sansuthi","maxFileSizeBytes":null,"userTier":2,"organizationMemberCount":null}],"referrer":null,"convertToStandardCsvFormat":false,"overview":"Population 1951 - 2020","description":"### Variables:\n* **Year:** 1951 to 2020\n* **Population:** World Population\n* **ChangePerc:** Yearly Change in Percentage\n* **NetChange**: Total Yearly Change\n* **Density:** Density in P/Km²\t\n* **Urban:** Urban Population \n* **UrbanPerc:** Urban Population Percentage\n\nSource of content: www.worldometers.info","actions":[],"flags":[],"title":"World Population by Year","slug":"world-population-by-year","licenseId":1,"data":{"firestorePath":"IjUfVIUJUWKBwHaq91qX/versions/w4hegQp5b06kGlKRAFx2","databundleVersionId":2320194,"databundle":{"type":"databundle","databundleInfo":{"currentDatabundleVersionId":2320194,"databundleType":"dataset","diffType":"versioned","creationDate":"2021-05-28T08:21:49.8708844Z","creatorUserId":7044332,"removalDate":null,"currentGoodVersionKey":"w4hegQp5b06kGlKRAFx2","lastestVersionKey":"w4hegQp5b06kGlKRAFx2","versions":{"totalChildren":1,"count":0,"children":[]}},"datasetInfo":{"datasetId":1372719,"datasetSlug":"/sansuthi/world-population-by-year","isPrivate":true},"competitionInfo":null,"remoteDatasourceInfo":null,"bigqueryInfo":null,"githubInfo":null,"key":"IjUfVIUJUWKBwHaq91qX","path":"IjUfVIUJUWKBwHaq91qX","legacyEntityId":1396832,"relativeUrl":"","name":"World Population by Year","description":null},"databundleVersion":{"type":"databundleVersion","databundleVersionInfo":{"versionNumber":1,"versionNotes":"Initial release","creatorUserId":7044332,"creationDate":"2021-05-28T08:21:49.8709348Z","removalDate":null,"databundleVersionType":"fileset","objectTypeCount":{}},"datasetVersionInfo":{"datasetVersionId":2279067},"statusInfo":{"status":"ready","statusMessage":"Ready","percentageCompleted":1.0},"exceptionInfo":{"criticalException":null,"warningExceptions":[]},"filesetInfo":{"totalSize":3401,"directories":{"totalChildren":0,"count":0,"children":[]},"files":{"totalChildren":1,"count":0,"children":[]}},"originalCompressionInfo":null,"bundleCompressionInfo":{"filename":"archive.zip","fileExtension":".zip","fileSize":1831,"contentEncoding":"application/zip","contentMD5":"TPRVMuOeOf+2nFWwDh5StA==","archiveGcsUrl":"gs://kaggle-data-sets/1372719/2279067/bundle/archive.zip","creationLastUpdate":"2021-05-28T08:21:51.6613394Z","creationPercentComplete":1.0},"bigquerySnapshotInfo":null,"storageInfo":{"uploadDataLocation":{"bucket":"kaggle-data-sets","path":"1372719/2279067/upload"},"rawDataLocation":{"bucket":"kagglesdsdata","path":"datasets/1372719/2279067"},"individualCompressedLocation":{"bucket":"kaggle-data-sets","path":"1372719/2279067/compressed"},"bundleArchiveLocation":{"bucket":"kaggle-data-sets","path":"1372719/2279067/bundle/archive.zip"},"fileSystemLocation":{"bucket":"kaggle-data-sources","path":"datasets/1372719/2279067/fs/embedded_fs"}},"fileSummaryInfo":{"fileTypes":[{"extension":".csv","fileCount":1,"totalSize":3401}],"sampleFileNames":["WorldPopulation.csv"],"totalFileCount":1},"columnSummaryInfo":{"columnTypes":[{"columnType":"Integer","columnCount":6,"rowCount":420},{"columnType":"Decimal","columnCount":1,"rowCount":70}],"sampleColumnNames":["UrbanPerc","Urban","Density","NetChange","ChangePerc","Population","Year"],"totalColumnCount":7},"externalCopyInfo":null,"originalRemoteUrlInfo":null,"key":"w4hegQp5b06kGlKRAFx2","path":"IjUfVIUJUWKBwHaq91qX/versions/w4hegQp5b06kGlKRAFx2","legacyEntityId":2320194,"relativeUrl":"","name":"Version 1","description":"Initial release"}},"isPrivate":false,"owner":{"id":7044332,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/7044332-kg.png","isOrganization":false,"name":"SANDHYA S","profileUrl":"/sansuthi","slug":"sansuthi","maxFileSizeBytes":null,"userTier":2,"organizationMemberCount":null}});performance && performance.mark && performance.mark("DatasetContainer.componentCouldBootstrap");</script><script nonce="" type="text/x-mathjax-config;executed=true">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+    preferredFont: "TeX",
+    availableFonts: ["STIX", "TeX"],
+    linebreaks: {
+    automatic: true
+    },
+    EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+    inlineMath: [["\\(", "\\)"], ["\\\\(", "\\\\)"]],
+    displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+    processEscapes: true,
+    ignoreClass: "tex2jax_ignore|dno"
+    },
+    TeX: {
+    noUndefined: {
+    attributes: {
+    mathcolor: "red",
+    mathbackground: "#FFEEEE",
+    mathsize: "90%"
+    }
+    }
+    },
+    Macros: {
+    href: "{}"
+    },
+    skipStartupTypeset: true,
+    messageStyle: "none",
+    extensions: [],
+    });
+</script>
+<script type="text/javascript" nonce="">
+  window.addEventListener("DOMContentLoaded", () => {
+    const head = document.getElementsByTagName("head")[0];
+    const useProdHosts = ["www.kaggle.com", "admin.kaggle.com"];
+    const subdomain = useProdHosts.includes(window.location.hostname) ? "www" : "staging";
+
+    const lib = document.createElement("script");
+    lib.type = "text/javascript";
+    lib.src = `https://${subdomain}.kaggleusercontent.com/static/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML`;
+    head.appendChild(lib);
+  });
+</script>
+
+
+</div>
+
+
+
+
+  </main>
+
+
+
+<div class="sc-iueNdr eCOfsf sc-hQYpqk Cyuyt mdc-menu-surface"><div role="document"><div class="sc-fTFMiz PIJDq"><div tabindex="0" class="sc-cvdZrU eYrywk"><h5 class="sc-fFSPTT sc-bkbkJK gaJJBS eraKfR">No Active Events</h5><br><p class="sc-fKgJPI sc-bCwfaz gKhVmc hzzSzX">Create notebooks  and keep track of their status here.</p><br><div class="sc-fTZpSt bcvdhv"><a href="https://www.kaggle.com/code/welcome" target="_blank" tabindex="0" class="sc-EZqKI iONckA"><button class="sc-jXcxbT biCGTL" tabindex="-1" role="button"><i color="#FFFFFF" sizevalue="18px" class="rmwc-icon google-material-icons sc-gKAaRy eoZVBq">add</i><span class="sc-iklJeh sc-jJMGnK kOwaVM laKGqb">New Notebook</span></button></a></div></div><ul class="km-list"><li class="sc-bBjRSN cdTyhF"><div class="sc-cOifOu fDKoDk sc-biHcxt gkVDLS"><a class="sc-hTRkXV enlJuL"><div class="sc-Arkif eJDRKz"><div class="sc-khIgEk hQhHpX"><div class="sc-dbXCOC fCfyBJ"><i emphasis="high" sizevalue="24px" class="rmwc-icon google-material-icons sc-gKAaRy iExPwm sc-ehALMs carCnm">auto_awesome_motion</i><div color="#FAE041" class="sc-hGwcmR hJeCDs">0</div></div></div><div class="sc-iCoGMd sc-hHEiqL sc-laZMeE cHRTxu ccTnQh cuPfjw"><p class="sc-fKgJPI sc-bCwfaz bSYwtb hzzSzX">0 Active Events</p></div></div></a><div class="sc-jgPyTC gxzFoF"><i emphasis="high" sizevalue="24px" role="button" tabindex="0" class="rmwc-icon google-material-icons sc-gKAaRy iExPwm">expand_more</i></div></div></li></ul></div></div></div><div class="sc-iueNdr eCOfsf sc-hQYpqk Cyuyt mdc-menu-surface"><div role="document"><div class="sc-fTFMiz PIJDq"><div tabindex="0" class="sc-cvdZrU eYrywk"><h5 class="sc-fFSPTT sc-bkbkJK gaJJBS eraKfR">No Active Events</h5><br><p class="sc-fKgJPI sc-bCwfaz gKhVmc hzzSzX">Create notebooks  and keep track of their status here.</p><br><div class="sc-fTZpSt bcvdhv"><a href="https://www.kaggle.com/code/welcome" target="_blank" tabindex="0" class="sc-EZqKI iONckA"><button class="sc-jXcxbT biCGTL" tabindex="-1" role="button"><i color="#FFFFFF" sizevalue="18px" class="rmwc-icon google-material-icons sc-gKAaRy eoZVBq">add</i><span class="sc-iklJeh sc-jJMGnK kOwaVM laKGqb">New Notebook</span></button></a></div></div><ul class="km-list"><li class="sc-bBjRSN cdTyhF"><div class="sc-cOifOu fDKoDk sc-biHcxt gkVDLS"><a class="sc-hTRkXV enlJuL"><div class="sc-Arkif eJDRKz"><div class="sc-khIgEk hQhHpX"><div class="sc-dbXCOC fCfyBJ"><i emphasis="high" sizevalue="24px" class="rmwc-icon google-material-icons sc-gKAaRy iExPwm sc-ehALMs carCnm">auto_awesome_motion</i><div color="#FAE041" class="sc-hGwcmR hJeCDs">0</div></div></div><div class="sc-iCoGMd sc-hHEiqL sc-laZMeE cHRTxu ccTnQh cuPfjw"><p class="sc-fKgJPI sc-bCwfaz bSYwtb hzzSzX">0 Active Events</p></div></div></a><div class="sc-jgPyTC gxzFoF"><i emphasis="high" sizevalue="24px" role="button" tabindex="0" class="rmwc-icon google-material-icons sc-gKAaRy iExPwm">expand_more</i></div></div></li></ul></div></div></div><script src="./World Population by Year _ Kaggle_files/loader.js(1).download" async=""></script></body></html>
