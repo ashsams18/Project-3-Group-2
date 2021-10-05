@@ -11,7 +11,7 @@ The aim is to download data in the form of csv files that relates to the populat
 
 ## DATA SOURCES
 Kaggle : 
-[Population](https://www.kaggle.com/sansuthi/world-population-by-year)
+[Population](https://www.kaggle.com/imdevskp/world-population-19602018?select=population_total_long.csv)
 
 [Pollution](https://www.kaggle.com/sohamgade/plastic-datasets?select=per-capita-plastic-waste-vs-gdp-per-capita.csv)
 
