@@ -12,8 +12,8 @@ The aim is to download data in the form of csv files that relates to the populat
 ##DATA SOURCES
 Kaggle
 
-[GitHub](https://www.kaggle.com/sansuthi/world-population-by-year)
-[GitHub](https://www.kaggle.com/sohamgade/plastic-datasets?select=per-capita-plastic-waste-vs-gdp-per-capita.csv)
+[Population](https://www.kaggle.com/sansuthi/world-population-by-year)
+[Pollution](https://www.kaggle.com/sohamgade/plastic-datasets?select=per-capita-plastic-waste-vs-gdp-per-capita.csv)
 
 ## OVERVIEW OF THE VISUALISATIONS
 Bar chart
