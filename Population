@@ -1,0 +1,11 @@
+-- Create the Table
+CREATE TABLE poptemp (
+	Country Text PRIMARY KEY NOT NULL,
+	Year INT,
+	Count BIGINT,
+	AverageTemperature DEC, 
+	
+);
+
+-- Query to check successful load
+SELECT * FROM poptemp;
