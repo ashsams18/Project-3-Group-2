@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Global Warming. A Visualisation</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
 </head>
 
 <body style=background-color:blue>
@@ -36,16 +36,38 @@
     </div>
     <div class="row" style=background-color:#000000 id="meta-data-bar">
       <div class="col-md-4">
-        <div class="well">
-              <h5><b><font size="5">Countries:</font></b></h5>
+        <form>
+          <div class="Country">
+            <label for="exampleFormControlSelect1">Example select</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+        </form>
+      <!-- <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Country
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+        </div>
+        </div> -->
+        <!-- <div class="well">
+              <h5><b>Countries:</b></h5>
               <select id="selDataset" size=5 onchange="newid(this.value)">
               </select>
             </br>
-            </div>
-          
+            </div> -->
             <div class="panel panel-primary" style=background-color:#141414>
               <div class="panel-heading" style="color:#750303">
-                <h3 class="panel-title"><b><font size="3">Country Info</font></b></h3>
+                <h3 class="panel-title"><b>Country Info</b></h3>
                 </div>
                 <div id="sample-metadata" class="panel-body" style=background-color:#141414 style=color:#ffffff>
               </div>
@@ -56,18 +78,21 @@
         <div class="col-md-8">
           <div class="panel panel-primary">
             <div class="panel-heading">
-              <h3 class="panel-title"><b><font size="4">Top Ten Countries by population</font></b></h3>
+              <h3 class="panel-title"><b>Top Ten Countries by population</h3>
+              <div id="plotpop"></div>
+
             </div>
             <div id="sample-metadata2" class="panel-body" style=background-color:#801010></div>
-            <div id="bar" style=background-color:#741414>
+            <div id="bar1" style=background-color:#741414>
             </div>
           </div>
           <div class="panel panel-primary">
             <div class="panel-heading">
-              <h3 class="panel-title"><b><font size="4">Top Ten Countries by Temperature</font></b></h3>
+              <h3 class="panel-title"><b>Top Ten Countries by Temperature</b></h3>
+              <div id="plottemp"></div>
             </div>
             <div id="sample-metadata3" class="panel-body" style=background-color:#141414></div>
-            <div id="bar" style=background-color:#6d0606></div>
+            <div id="bar2" style=background-color:#6d0606></div>
           </div>
         </div>
     </div>
@@ -76,10 +101,10 @@
       <div class="col-md-12">
       <div class="panel panel-primary">
         <div class="panel-heading">
-          <h3 class="panel-title"><b><font size="4">population vs Temperature</font></b></h3>
+          <h3 class="panel-title"><b>population vs Temperature</b></h3>
         </div>
         <div id="sample-metadata4" class="panel-body" style=background-color:#141414></div>
-        <div id="bar" style=background-color:#141414></div>
+        <div id="bar3" style=background-color:#141414></div>
       </div>
       </div>
         </div>
@@ -87,13 +112,14 @@
       </div>
     </div>
   </div>
-  <figure>
-    <img src="images/earthcracking.jpg"alt="Earth cracking">
+<figure>
+    <img src="../images/earthcracking.jpg"alt="Earth cracking">
         <figcaption>Earth cracking due to Global warming</figcaption>
 </figure>
+
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="visual.js"></script>
+  <script src="{{ url_for('static', filename='js/visual.js') }}"></script>
   
   
 </body>
