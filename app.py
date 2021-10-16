@@ -32,12 +32,12 @@ def pop():
     for Index,Country,Y1963,Y1973,Y1983,Y1993,Y2003,Y2013 in Popdata:
             population_dict = {}
             population_dict["Country"] = Country
-            population_dict["1963"] = Y1963
-            population_dict["1973"] = Y1973
-            population_dict["1983"] = Y1983
-            population_dict["1993"] = Y1993
-            population_dict["2003"] = Y2003
-            population_dict["2013"] = Y2013
+            population_dict["Y1963"] = Y1963
+            population_dict["Y1973"] = Y1973
+            population_dict["Y1983"] = Y1983
+            population_dict["Y1993"] = Y1993
+            population_dict["Y2003"] = Y2003
+            population_dict["Y2013"] = Y2013
             population.append(population_dict)
     return jsonify(population)
 
@@ -49,12 +49,12 @@ def temp():
     for Index,Country,Y1963,Y1973,Y1983,Y1993,Y2003,Y2013 in Tempdata:
             temp_dict = {}
             temp_dict["Country"] = Country
-            temp_dict["1963"] = Y1963
-            temp_dict["1973"] = Y1973
-            temp_dict["1983"] = Y1983
-            temp_dict["1993"] = Y1993
-            temp_dict["2003"] = Y2003
-            temp_dict["2013"] = Y2013
+            temp_dict["Y1963"] = Y1963
+            temp_dict["Y1973"] = Y1973
+            temp_dict["Y1983"] = Y1983
+            temp_dict["Y1993"] = Y1993
+            temp_dict["Y2003"] = Y2003
+            temp_dict["Y2013"] = Y2013
             temp.append(temp_dict)
     return jsonify(temp)
 
