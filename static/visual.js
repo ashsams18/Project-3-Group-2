@@ -5,6 +5,7 @@ function selectionChanged(htmlSelect) {
 
  function updateDashboard(countryIndex){
    buildPlot2(countryIndex);
+   buildPlot3(countryIndex);
  }
 
 
@@ -70,6 +71,15 @@ function buildPlot2(countryIndex) {
 }
 
 function buildPlot3(countryIndex) {
+  if(countryIndex == -1)
+  {
+    $("#plottemp").html("");
+    $("#plottemp").text("You have not made any selections!!!!!!!!!");
+     return;
+  }
+  else{
+    $("#plottemp").html("");
+  }
   const url = "/temp";
   d3.json(url).then(function (data) {
     countries = []
