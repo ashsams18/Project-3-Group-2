@@ -63,7 +63,7 @@ function buildPlot2(countryIndex) {
     };
     var data = [trace1];
     var layout = {
-      title: countryName + " Population over Years",
+      title: countryName + " Population (m) changes over decades",
       showlegend: false
     }
 
@@ -124,7 +124,7 @@ function buildPlot3(countryIndex) {
     };
     var data = [trace1];
     var layout = {
-      title: countryName + " Temperature over Years",
+      title: countryName + " Temperature (c) changes over decades",
       showlegend: false
     }
 
@@ -143,7 +143,7 @@ function buildPlot4(countryIndex) {
     $("#poptemp").html("");
   }
   const url = "/pop";
-  d3.json(url).then(function (data) {
+  d3.json(url).then(function (data1) {
     countries = []
     Y1963 = []
     Y1973 = []
@@ -151,7 +151,7 @@ function buildPlot4(countryIndex) {
     Y1993 = []
     Y2003 = []
     Y2013 = []
-    data.forEach(function (element) {
+    data1.forEach(function (element) {
       countries.push(element.Country)
       Y1963.push(element.Y1963)
       Y1973.push(element.Y1973)
@@ -171,12 +171,12 @@ function buildPlot4(countryIndex) {
     let singleY2003 = Y2003[countryIndex];
     let singleY2013 = Y2013[countryIndex];
 
-    x_data = ["Y1973", "Y1983", "Y1993", "Y2003", "Y2013"];
-    y_data = [singleY1973, singleY1983, singleY1993, singleY2003, singleY2013];
+    x_data1 = ["Y1973", "Y1983", "Y1993", "Y2003", "Y2013"];
+    y_data1 = [singleY1973, singleY1983, singleY1993, singleY2003, singleY2013];
 
     console.log(countryName);
-    console.log(x_data);
-    console.log(y_data);
+    console.log(x_data1);
+    console.log(y_data1);
 
     const url = "/temp";
   d3.json(url).then(function (data) {
@@ -215,26 +215,34 @@ function buildPlot4(countryIndex) {
     console.log(y_data);
 
     let trace1 = {
-      x: x_data,
-      y: y_data,
-      type: "lines",
-      name: "lines"
+      x: x_data1,
+      y: y_data1,
+      type: "scatter",
+      name: "yaxis data"
     };
     let trace2 = {
       x: x_data,
       y: y_data,
-      type: "lines",
-      name: "lines"
+      type: "scatter",
+      name: "yaxis2 data",
+      yaxis: 'y2'
     };
     var data = [trace1, trace2];
     var layout = {
       title: countryName + " Population Vs Temperature over Years",
-      showlegend: false
-    }
+      yaxis: {title: 'Population'},
+      yaxis2: {
+        title: 'Temperature',
+        titlefont: {color: 'rgb(148, 103, 189)'},
+        tickfont: {color: 'rgb(148, 103, 189)'},
+        overlaying: 'y',
+        side: 'right',
+        showlegend: false
+    }}
 
     Plotly.newPlot("poptemp", data, layout);
-  });
-  }
-  )}
+
+  })});
+}
 
 updateDashboard(countryIndex = -1);
