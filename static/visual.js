@@ -4,37 +4,12 @@ function selectionChanged(htmlSelect) {
  }
 
  function updateDashboard(countryIndex){
-   buildPlot(countryIndex);
    buildPlot2(countryIndex);
    buildPlot3(countryIndex);
    buildPlot4(countryIndex);
  }
 
- function buildPlot(countryIndex) {
- if(countryIndex == -1)
- {
-   $("#sample-metadata").html("");
-   $("#sample-metadata").text("");
-    return;
-    const url = "/pop";
-    d3.json(url).then(function (data) {
-      countries = []
-      Y1963 = []
-      Y1973 = []
-      Y1983 = []
-      Y1993 = []
-      Y2003 = []
-      Y2013 = []
-      data.forEach(function (element) {
-        countries.push(element.Country)
-        Y1963.push(element.Y1963)
-        Y1973.push(element.Y1973)
-        Y1983.push(element.Y1983)
-        Y1993.push(element.Y1993)
-        Y2003.push(element.Y2003)
-        Y2013.push(element.Y2013)
- }
-)});
+
 function buildPlot2(countryIndex) {
   if(countryIndex == -1)
   {
