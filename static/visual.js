@@ -1,91 +1,72 @@
-function buildPlot2(){
+function selectionChanged(htmlSelect) {
+  console.log("Selection changed!!!");
+  updateDashboard(htmlSelect.value);
+ }
+
+ function updateDashboard(countryIndex){
+   buildPlot2(countryIndex);
+ }
+
+
+function buildPlot2(countryIndex) {
+  if(countryIndex == -1)
+  {
+    $("#plotpop").html("");
+    $("#plotpop").text("You have not made any selections!!!!!!!!!");
+     return;
+  }
+  else{
+    $("#plotpop").html("");
+  }
   const url = "/pop";
-  d3.json(url).then(function(data){
+  d3.json(url).then(function (data) {
     countries = []
     Y1963 = []
-    data.forEach(function(element){
+    Y1973 = []
+    Y1983 = []
+    Y1993 = []
+    Y2003 = []
+    Y2013 = []
+    data.forEach(function (element) {
       countries.push(element.Country)
       Y1963.push(element.Y1963)
-    })
+      Y1973.push(element.Y1973)
+      Y1983.push(element.Y1983)
+      Y1993.push(element.Y1993)
+      Y2003.push(element.Y2003)
+      Y2013.push(element.Y2013)
+      // console.log(countries[0])
+    });
 
+
+    countryName = countries[countryIndex];
+    let singleY1963 = Y1963[countryIndex];
+    let singleY1973 = Y1973[countryIndex];
+    let singleY1983 = Y1983[countryIndex];
+    let singleY1993 = Y1993[countryIndex];
+    let singleY2003 = Y2003[countryIndex];
+    let singleY2013 = Y2013[countryIndex];
+
+    x_data = ["Y1973", "Y1983", "Y1993", "Y2003", "Y2013"];
+    y_data = [singleY1973, singleY1983, singleY1993, singleY2003, singleY2013];
+
+    console.log(countryName);
+    console.log(x_data);
+    console.log(y_data);
     let trace1 = {
-      x: Y1963,
-      y: countries,
+      x: x_data,
+      y: y_data,
       type: "bar",
-      name: "bars"
+      name: "bar"
     };
-
     var data = [trace1];
-    
     var layout = {
-      title: "Testing",
+      title: countryName + " Population over Years",
       showlegend: false
     }
 
     Plotly.newPlot("plotpop", data, layout);
-
-  })
+  });
 }
 
-
-  
-    //const data = response;
-    // let Country = "Portugal";
-    //let Countrydata = response.filter(c => c.Country == "Portugal");
-    //console.log(Countrydata);
-    // for (let i = 0; i < response.length; i++) {
-    //   if (response[i].Country == "Portugal"){ 
-    //   console.log(response[i].Y1963)
-    //   };
-    // };
-
-
-
-  
-
-    // let trace1 = {
-    //   x: [0, 1, 2, 3, 4, 5],
-    //   y: [0, 5, 10, 15, 20, 25],
-    //   type: "bar",
-    //   name: "bars"
-    // };
-    
-    // const layout = {
-    //   scope: "usa",
-    //   title: "Country",
-    //   showlegend: false,
-    //   height: 600,
-    //         // width: 980,
-    //   geo: {
-    //     scope: "usa",
-    //     projection: {
-    //       type: "albers usa"
-    //     },
-    //     showland: true,
-    //     landcolor: "rgb(217, 217, 217)",
-    //     subunitwidth: 1,
-    //     countrywidth: 1,
-    //     subunitcolor: "rgb(255,255,255)",
-    //     countrycolor: "rgb(255,255,255)"
-    //   }
-    // };
-
-    // Plotly.newPlot("plotpop", data, layout);
-
-    // Plotly.newPlot("plottemp", data);
-
-
-
-    // let dropdown_menu = d3.select("#selDataset");
-    
-    // d3.json(url).then((data) => {
-    //     var dataCountry = data.country;
-    // console.log(datadataCountryNames);
-    
-    // dataCountry.forEach((element)=> {
-    //     dropdown_menu
-    //     .append("option")
-    //     .text(element)
-    //     .property("value", element);
-    // });
-buildPlot2();
+updateDashboard(countryIndex = -1);

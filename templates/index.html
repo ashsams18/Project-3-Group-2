@@ -11,44 +11,49 @@
 </head>
 
 <body style=background-color:blue>
-      <!-- Navbar -->
-    <div class="ul.navbar">
-            <h2>Project 3</h2>
-            <a href="gw1">Project Proposal</a>
-            <a href="wwd.html">What We Did</a>
-            <a href="pg.html">Population Growth</a>
-            <a href="at.html">Average Temperature</a>
-            <a href="vis.html">Visualisations</a>
-            <a href="sum.html">Summary</a>
-        </div>
-    <!-- Main content -->
+  <!-- Navbar -->
+  <div class="ul.navbar">
+    <h2>Project 3</h2>
+    <a href="gw1">Project Proposal</a>
+    <a href="wwd.html">What We Did</a>
+    <a href="pg.html">Population Growth</a>
+    <a href="at.html">Average Temperature</a>
+    <a href="vis.html">Visualisations</a>
+    <a href="sum.html">Summary</a>
+  </div>
+  <!-- Main content -->
   <div>
 
-  <div class="container">
-    <div class="row" id="jumbotron">
-      <div class="col-md-12 jumbotron text-center">
-        <h1><b>Global Warming. A Visualisation</b></h1>
-        <h3>By Arshad Sheikh, Belinda Achuo, Muhammed Amjad & Sam Stafford</h3>
-        <p>The effects of global warming are already bringing harm to human communities and the natural world. Further temperature rises will have a devastating impact and more action on greenhouse gas emissions is urgently required. Multiple factors contribute to climate change, and multiple actions are needed to address it. The number of people on our planet is one of those factors. Every additional person increases carbon emissions — the rich far more than the poor — and increases the number of climate change victims – the poor far more than the rich.
+    <div class="container">
+      <div class="row" id="jumbotron">
+        <div class="col-md-12 jumbotron text-center">
+          <h1><b>Global Warming. A Visualisation</b></h1>
+          <h3>By Arshad Sheikh, Belinda Achuo, Muhammed Amjad & Sam Stafford</h3>
+          <p>The effects of global warming are already bringing harm to human communities and the natural world. Further
+            temperature rises will have a devastating impact and more action on greenhouse gas emissions is urgently
+            required. Multiple factors contribute to climate change, and multiple actions are needed to address it. The
+            number of people on our planet is one of those factors. Every additional person increases carbon emissions —
+            the rich far more than the poor — and increases the number of climate change victims – the poor far more
+            than the rich.
 
-        </p>
+          </p>
+        </div>
       </div>
-    </div>
-    <div class="row" style=background-color:#000000 id="meta-data-bar">
-      <div class="col-md-4">
-        <form>
-          <div class="Country">
-            <label for="exampleFormControlSelect1">Example select</label>
-            <select class="form-control" id="exampleFormControlSelect1">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-            </select>
-          </div>
-        </form>
-      <!-- <div class="dropdown">
+      <div class="row" style=background-color:#000000 id="meta-data-bar">
+        <div class="col-md-4">
+          <form>
+            <div class="Country">
+              <label for="exampleFormControlSelect1">Example select</label>
+              <select class="form-control" id="exampleFormControlSelect1"
+              onchange="selectionChanged(this)">
+                <option value="-1"> Select a country </option>
+                {% for c in myCountriesList %}
+                  <option value="{{c[0]}}">{{c[1]}}</option>
+                {% endfor %}
+              </select>
+            </div>
+          </form>
+          <!-- <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Country
         </button>
@@ -59,22 +64,22 @@
         </div>
         </div>
         </div> -->
-        <!-- <div class="well">
+          <!-- <div class="well">
               <h5><b>Countries:</b></h5>
               <select id="selDataset" size=5 onchange="newid(this.value)">
               </select>
             </br>
             </div> -->
-            <div class="panel panel-primary" style=background-color:#141414>
-              <div class="panel-heading" style="color:#750303">
-                <h3 class="panel-title"><b>Country Info</b></h3>
-                </div>
-                <div id="sample-metadata" class="panel-body" style=background-color:#141414 style=color:#ffffff>
-              </div>
-            </br>
-          </br>
+          <div class="panel panel-primary" style=background-color:#141414>
+            <div class="panel-heading" style="color:#750303">
+              <h3 class="panel-title"><b>Country Info</b></h3>
             </div>
-      </div>
+            <div id="sample-metadata" class="panel-body" style=background-color:#141414 style=color:#ffffff>
+            </div>
+            </br>
+            </br>
+          </div>
+        </div>
         <div class="col-md-8">
           <div class="panel panel-primary">
             <div class="panel-heading">
@@ -95,33 +100,35 @@
             <div id="bar2" style=background-color:#6d0606></div>
           </div>
         </div>
-    </div>
-    </br>
-    <div class="row" id="bubble-row">
-      <div class="col-md-12">
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <h3 class="panel-title"><b>population vs Temperature</b></h3>
-        </div>
-        <div id="sample-metadata4" class="panel-body" style=background-color:#141414></div>
-        <div id="bar3" style=background-color:#141414></div>
       </div>
-      </div>
-        </div>
+      </br>
+      <div class="row" id="bubble-row">
+        <div class="col-md-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title"><b>population vs Temperature</b></h3>
+            </div>
+            <div id="sample-metadata4" class="panel-body" style=background-color:#141414></div>
+            <div id="bar3" style=background-color:#141414></div>
+          </div>
         </div>
       </div>
     </div>
   </div>
-<figure>
+  </div>
+  </div>
+  <figure>
     <img src="../images/earthcracking.jpg" alt="Earth cracking">
-        <figcaption>Earth cracking due to Global warming</figcaption>
-</figure>
+    <figcaption>Earth cracking due to Global warming</figcaption>
+  </figure>
 
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="{{ url_for('static', filename='visual.js') }}"></script>
-  
-  
+
+
 </body>
 
 </html>

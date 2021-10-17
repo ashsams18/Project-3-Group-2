@@ -20,7 +20,11 @@ app = Flask(__name__)
 @app.route("/")
 def homepage():
     """List all available api routes."""
-    return render_template("index.html")
+    country_names_list = engine.execute("SELECT distinct Country FROM Pop").all()
+    # print(countryNamesList)
+    country_names_list = [item[0] for item in country_names_list]
+    country_names_list = enumerate(country_names_list)
+    return render_template("index.html", myCountriesList=country_names_list)
 
 @app.route("/pop")
 def pop():
