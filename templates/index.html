@@ -27,23 +27,24 @@
     <div class="container">
       <div class="row" id="jumbotron">
         <div class="col-md-12 jumbotron text-center">
-          <h1><b>Global Warming. A Visualisation</b></h1>
+          <h1><b>Relationship between Population and Temperature. A Visualisation</b></h1>
           <h3>By Arshad Sheikh, Belinda Achuo, Muhammed Amjad & Sam Stafford</h3>
           <p>The effects of global warming are already bringing harm to human communities and the natural world. Further
             temperature rises will have a devastating impact and more action on greenhouse gas emissions is urgently
             required. Multiple factors contribute to climate change, and multiple actions are needed to address it. The
             number of people on our planet is one of those factors. Every additional person increases carbon emissions —
             the rich far more than the poor — and increases the number of climate change victims – the poor far more
-            than the rich.
+            than the rich. 
+            The charts below represent a relationship, over 5 decades, between population changes and temparatue variations; a prime factor signifying global warming.
 
           </p>
         </div>
       </div>
-      <div class="row" style=background-color:#000000 id="meta-data-bar">
+      <div class="row" style=background-color:#8a9948 id="meta-data-bar">
         <div class="col-md-4">
           <form>
             <div class="Country">
-              <label for="exampleFormControlSelect1">Example select</label>
+              <label for="exampleFormControlSelect1">Population and Temperature</label>
               <select class="form-control" id="exampleFormControlSelect1"
               onchange="selectionChanged(this)">
                 <option value="-1"> Select a country </option>
@@ -53,28 +54,11 @@
               </select>
             </div>
           </form>
-          <!-- <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Country
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-        </div>
-        </div> -->
-          <!-- <div class="well">
-              <h5><b>Countries:</b></h5>
-              <select id="selDataset" size=5 onchange="newid(this.value)">
-              </select>
-            </br>
-            </div> -->
-          <div class="panel panel-primary" style=background-color:#141414>
+          <div class="panel panel-primary" style=background-color:#616060>
             <div class="panel-heading" style="color:#750303">
               <h3 class="panel-title"><b>Country Info</b></h3>
             </div>
-            <div id="sample-metadata" class="panel-body" style=background-color:#141414 style=color:#ffffff>
+            <div id="sample-metadata" class="panel-body" style=background-color:#3b5e4c style=color:#ffffff>
             </div>
             </br>
             </br>
@@ -107,6 +91,7 @@
           <div class="panel panel-primary">
             <div class="panel-heading">
               <h3 class="panel-title"><b>population vs Temperature</b></h3>
+              <div id="poptemp"></div>
             </div>
             <div id="sample-metadata4" class="panel-body" style=background-color:#141414></div>
             <div id="bar3" style=background-color:#141414></div>
