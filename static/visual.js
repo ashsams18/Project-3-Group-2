@@ -218,13 +218,13 @@ function buildPlot4(countryIndex) {
       x: x_data1,
       y: y_data1,
       type: "scatter",
-      name: "yaxis data"
+      name: "Population"
     };
     let trace2 = {
       x: x_data,
       y: y_data,
       type: "scatter",
-      name: "yaxis2 data",
+      name: "Temperature (c)",
       yaxis: 'y2'
     };
     var data = [trace1, trace2];
