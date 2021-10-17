@@ -58,7 +58,11 @@ SQLite connection, the engine was then connected to the database in pandas as se
 
 # Story Telling
 
-Both the population and Temperature files was ploted uising a; 
+Both the population and Temperature files was ploted using a; 
 
-*	Two Bar chart:   This visualises the increase in population and Temperature of each country over a period of 5 decades.
-*	A Line Graph : Showing the Variation between decades in Population vs Temperature.
+*	Bar charts:   This visualises the difference in increase in population (m) and temperature (c) of each country between decades.
+*	A Line Graph: Showing the Variation between decades in Population vs Temperature for the chosen country.
+
+# CONCLUSION
+
+Although there are several factors that influence global warming, increase in temperature can be considered a prime factor. The direct relationship between the change in population to the temperature variation was plotted to 
