@@ -62,6 +62,8 @@ def temp():
             temp.append(temp_dict)
     return jsonify(temp)
 
+    
+
 
 
 if __name__ == '__main__':
